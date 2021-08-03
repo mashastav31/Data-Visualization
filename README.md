@@ -14,6 +14,8 @@ At a glance the user is able to:
 
 ```
 
+Please see [assignment link](https://drive.google.com/file/d/1lv0lzHyjXU2MWf12cRtoQ3u_h8WsAYiH/view?usp=sharing) attached.
+
 ## Challenges:
 
 Several:)
@@ -24,15 +26,15 @@ I did CSS manually to get some practice - even a smaller project like this one t
 
 ## Potential things to improve/add:
 
-###### Visualization
+got ##### Visualization
 
 What is now a one page visualization (as per assignment), could be broken down to a few. Datacenters --> Rooms in a selected DC --> Room view --> TOR profile.
 
-###### Database
+##### Database
 
 With real-world database, cells would eventually fill up with life dynamic data. I would love to add a profile feature for an Admin (maybe a regular profile to for general access), who will be able to update, add and clear racks.
 
-###### Code
+##### Code
 
 I am yet to learn some ins and outs of React, there is always room for cleaner, compact yet readable code. I would get a second pair of eyes on a project right after submission.
 
