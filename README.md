@@ -14,7 +14,7 @@ At a glance the user is able to:
 
 ```
 
-Please see [assignment link](https://drive.google.com/file/d/1lv0lzHyjXU2MWf12cRtoQ3u_h8WsAYiH/view?usp=sharing) attached.
+Please see the [assignment link](https://drive.google.com/file/d/1lv0lzHyjXU2MWf12cRtoQ3u_h8WsAYiH/view?usp=sharing).
 
 ## Challenges:
 
@@ -26,7 +26,7 @@ I did CSS manually to get some practice - even a smaller project like this one t
 
 ## Potential things to improve/add:
 
-got ##### Visualization
+##### Visualization
 
 What is now a one page visualization (as per assignment), could be broken down to a few. Datacenters --> Rooms in a selected DC --> Room view --> TOR profile.
 
