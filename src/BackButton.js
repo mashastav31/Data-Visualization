@@ -4,7 +4,9 @@ export default function Item(){
     let history = useHistory();
     return (
         <>
-          <button onClick={() => history.goBack()} className={'backBtn'}>Back</button>
+          <button onClick={() => history.goBack()} className={'backBtn'}>
+            Back
+            </button>
         </>
     );
 };

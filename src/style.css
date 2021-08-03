@@ -1,7 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
 
-
-body, html, main, table {
+body,
+html,
+main,
+table {
   margin: 0;
   font-family: Poppins, Arial, Helvetica, sans-serif;
   font-weight: bold;
@@ -34,7 +36,9 @@ tr:hover td {
 td,
 th {
   border: 1px solid #f6f6f6;
-  width: 40px;
+  width: 30px;
+  color: black;
+
   text-align: center;
   background: lightgreen;
   padding: 5px 0;
@@ -62,7 +66,9 @@ td.fail {
   background: lightgreen;
 }
 
-.tor.fail, .tor.fail td, .tor.fail th {
+.tor.fail,
+.tor.fail td,
+.tor.fail th {
   background: lightcoral;
 }
 
@@ -81,6 +87,7 @@ h1 {
   width: 200px;
   height: 60px;
   border: none;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
   background-color: lightblue;
   border-radius: 4px;
   font-size: 1.4em;

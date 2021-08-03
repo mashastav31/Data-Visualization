@@ -33,6 +33,7 @@ export default function Overview () {
   const datacenter = params.get('datacenter')
 
   const racks = []
+  //Nested rack view - TOR breakdown:
   // [
   //   {
   //     location: 'US....',
@@ -149,13 +150,7 @@ export default function Overview () {
 
   const rooms = unique(filtered, 'room')
 
-  const sorted = rooms.sort((a, b) => {
-    if (a < b) {
-      return -1
-    }
-
-    return 1
-  })
+  const sorted = rooms.sort((a, b) => a - b)
 
   const nested = {}
 
@@ -192,7 +187,7 @@ export default function Overview () {
 
   return (
     <>
-      <h1 className={'mainHeader'}>Datacenter {datacenter}</h1>
+      <h1>Datacenter {datacenter}</h1>
       {sections}
     </>
   )

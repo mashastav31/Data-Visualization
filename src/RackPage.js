@@ -28,48 +28,8 @@ export default function RackPage () {
   console.log('number test:', number)
 
   const racks = []
-  // [
-  //   {
-  //     location: 'US....',
-  //     datacenter: 'US...',
-  //     room: '1',
-  //     row: '1',
-  //     number: '1',
-  //     failed: true,
-  //     tors: [
-  //       {
-  //         hostname: 'usmt...',
-  //         failed: true,
-  //         vertical: {
-  //           loss: 0.0,
-  //           latency: 0.0,
-  //           failed: false
-  //         },
-  //         horizontal: {
-  //           loss: 10.0,
-  //           latency: 0.0,
-  //           failed: true
-  //         }
-  //       },
-  //       {
-  //         hostname: 'usst...',
-  //         failed: true,
-  //         vertical: {
-  //           loss: 0.0,
-  //           latency: 0.0,
-  //           failed: false
-  //         },
-  //         horizontal: {
-  //           loss: 10.0,
-  //           latency: 0.0,
-  //           failed: true
-  //         }
-  //       }
-  //     ]
-  //   }
-  // ]
 
-  console.log('data test:', data)
+//1.
   data.forEach(report => {
     const {
       hostname,
@@ -140,13 +100,7 @@ export default function RackPage () {
     }
   })
 
-  console.log('racks test:', racks)
-
-  console.log('datacenter test:', datacenter)
-  console.log('roomNumber test:', roomNumber)
-  console.log('rowNumber test:', rowNumber)
-  console.log('number test:', number)
-
+  //Couldn't find any easie way to place a rack exactly where it belogs. This seems to be working fine!
   const found = racks
     .find(rack => {
       console.log('rack test:', rack)
@@ -158,7 +112,6 @@ export default function RackPage () {
       return dataMatch && roomMatch && rowMatch && rackMatch
     })
 
-  console.log('found test:', found)
 
   const sections = found
     .tors
@@ -167,7 +120,7 @@ export default function RackPage () {
 
       return (
         <div key={tor.hostname} className={className}>
-          <h2>{tor.hostname}</h2>
+          <h2 style={{color: 'white', textTransform: 'capitalize'}}>{tor.hostname}</h2>
 
           <table>
             <thead>
