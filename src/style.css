@@ -1,0 +1,105 @@
+.pageBackground {
+  background-color: #f6f6f6;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-self: center;
+}
+table {
+  align-self: center;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+}
+.mainHeader {
+  font-size: 3em;
+  text-align: center;
+  color: #2b2d42;
+}
+.roomHeader {
+  font-size: 0.9em;
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  color: #2b2d42;
+}
+td,
+th {
+  border: 1px solid #ddd;
+}
+
+td.fail {
+  background: rgb(247, 177, 170);
+}
+
+td,
+th {
+  margin-left: 30%;
+  padding: 20px 100px;
+  text-align: center;
+}
+
+td.good {
+  background: rgb(184, 245, 184);
+  text-align: center;
+}
+
+tr:nth-child(even) td.fail {
+  background: rgb(247, 177, 170);
+}
+
+tr:hover,
+.tor {
+  color: white;
+}
+
+tr:hover td.good,
+.tor {
+  background: #27ccab;
+}
+
+tr:hover td.fail {
+  background: rgb(245, 84, 84);
+}
+
+tr.fail:hover,
+.tor.fail {
+  background: rgb(245, 84, 84);
+}
+
+.tor {
+  width: 800px;
+  height: 300px;
+  padding: 1px 20px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.tor table {
+  margin-bottom: 14px;
+}
+.rackHeader {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: inherit;
+  color: black;
+}
+.rowView {
+  text-decoration: none;
+  color: inherit;
+  color: black;
+  text-align: center;
+}
+.backBtn {
+  width: 200px;
+  height: 60px;
+  border: none;
+  color: #ddd;
+  background-color: rgb(255, 0, 65);
+  border-radius: 4px;
+  font-size: 1.4em;
+}
+.rowTable {
+  align-self: center;
+}

@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import Overview from './Overview'
+import RoomPage from './RoomPage'
+import RowPage from './RowPage'
+import RackPage from './RackPage'
+import { Route } from 'react-router-dom'
 
-function App() {
+function App () {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <main className={'main'}>
+      <Route exact path='/' component={Overview}/>
+
+      <Route path='/room/:number' component={RoomPage} />
+
+      <Route
+        path='/row/:roomNumber/:number'
+        component={RowPage}
+      />
+
+      <Route
+        path='/rack/:roomNumber/:rowNumber/:number'
+        component={RackPage}
+      />
+    </main>
+  )
 }
 
-export default App;
+export default App
