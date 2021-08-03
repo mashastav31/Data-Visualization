@@ -1,7 +1,6 @@
 ## Overview:
 
 A datacenter is made of rooms, rows, and racks.
-
 At a glance the user is able to:
 
 ```
@@ -14,7 +13,7 @@ At a glance the user is able to:
 
 ```
 
-Please see the [assignment link](https://drive.google.com/file/d/1lv0lzHyjXU2MWf12cRtoQ3u_h8WsAYiH/view?usp=sharing).
+[The assignment link](https://drive.google.com/file/d/1lv0lzHyjXU2MWf12cRtoQ3u_h8WsAYiH/view?usp=sharing).
 
 ## Challenges:
 
@@ -28,11 +27,11 @@ I did CSS manually to get some practice - even a smaller project like this one t
 
 ##### Visualization
 
-What is now a one page visualization (as per assignment), could be broken down to a few. Datacenters --> Rooms in a selected DC --> Room view --> TOR profile.
+What now is a one page visualization (as per assignment), could be broken down to a few. Datacenters --> Rooms in a selected DC --> Room view --> TOR profile.
 
 ##### Database
 
-With real-world database, cells would eventually fill up with life dynamic data. I would love to add a profile feature for an Admin (maybe a regular profile to for general access), who will be able to update, add and clear racks.
+With real-world database, cells would eventually fill up with life, dynamic data. I would love to add a profile feature for an Admin (maybe a regular profile to for general access), who will be able to update, add and clear racks.
 
 ##### Code
 
