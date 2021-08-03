@@ -1,6 +1,5 @@
 import data from './data.json'
 import { useLocation, useParams } from 'react-router-dom'
-import './style.css'
 import BackButton from './BackButton'
 
 function isFailed (latency, loss) {
@@ -145,10 +144,12 @@ export default function RackPage () {
 
   console.log('datacenter test:', datacenter)
   console.log('roomNumber test:', roomNumber)
+  console.log('rowNumber test:', rowNumber)
   console.log('number test:', number)
 
   const found = racks
     .find(rack => {
+      console.log('rack test:', rack)
       const dataMatch = rack.datacenter === datacenter
       const roomMatch = rack.room === roomNumber
       const rowMatch = rack.row === rowNumber
@@ -192,11 +193,11 @@ export default function RackPage () {
     })
 
   return (
-    <main >
-      <h1 className={'rackHeader'}>Rack {number}</h1>
+    <>
+      <h1>Rack {number}</h1>
 
       {sections}
       <BackButton/>
-    </main>
+    </>
   )
 }

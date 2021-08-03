@@ -1,7 +1,6 @@
 import data from './data.json'
 import { useLocation, useParams } from 'react-router-dom'
 import Room from './Room'
-import './style.css'
 
 function unique (data, key) {
   const rooms = data.map(datum => datum[key])
@@ -34,7 +33,6 @@ export default function RowPage () {
   const datacenter = params.get('datacenter')
 
   const { number } = useParams()
-  console.log('number test:', number)
 
   const racks = []
   // [
@@ -78,7 +76,6 @@ export default function RowPage () {
   //   }
   // ]
 
-  console.log('data test:', data)
   data.forEach(report => {
     const {
       hostname,
@@ -149,8 +146,6 @@ export default function RowPage () {
     }
   })
 
-  console.log('racks test:', racks)
-
   const filtered = racks
     .filter(rack => {
       const dataMatch = rack.datacenter === datacenter
@@ -158,8 +153,6 @@ export default function RowPage () {
 
       return dataMatch && roomMatch
     })
-
-  console.log('filtered test:', filtered)
 
   const nested = {}
   const rows = unique(filtered, 'row')

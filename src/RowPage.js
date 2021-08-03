@@ -1,7 +1,6 @@
 import data from './data.json'
 import { useLocation, useParams } from 'react-router-dom'
 import Row from './Row'
-import './style.css'
 
 function isFailed (latency, loss) {
   const latencyFailed = latency > 10000
@@ -26,7 +25,6 @@ export default function RowPage () {
   const datacenter = params.get('datacenter')
 
   const { roomNumber, number } = useParams()
-  console.log('number test:', number)
 
   const racks = []
   // [
@@ -70,7 +68,6 @@ export default function RowPage () {
   //   }
   // ]
 
-  console.log('data test:', data)
   data.forEach(report => {
     const {
       hostname,
@@ -141,12 +138,6 @@ export default function RowPage () {
     }
   })
 
-  console.log('racks test:', racks)
-
-  console.log('datacenter test:', datacenter)
-  console.log('roomNumber test:', roomNumber)
-  console.log('number test:', number)
-
   const filtered = racks
     .filter(rack => {
       const dataMatch = rack.datacenter === datacenter
@@ -156,14 +147,20 @@ export default function RowPage () {
       return dataMatch && roomMatch && rowMatch
     })
 
-  console.log('filtered test:', filtered)
-
   return (
-    <Row className={'rowView'}
-      number={number}
-      racks={filtered}
-      datacenter={datacenter}
-      roomNumber={roomNumber}
-    />
+    <>
+      <h1>Row {number}</h1>
+
+      <table>
+        <tbody>
+          <Row className={'rowView'}
+            number={number}
+            racks={filtered}
+            datacenter={datacenter}
+            roomNumber={roomNumber}
+          />
+        </tbody>
+      </table>
+    </>
   )
 }

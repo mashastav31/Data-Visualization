@@ -1,7 +1,6 @@
 import data from './data.json'
 import { useLocation } from 'react-router-dom'
 import Room from './Room'
-import './style.css'
 
 function unique (data, key) {
   const rooms = data.map(datum => datum[key])
@@ -75,7 +74,6 @@ export default function Overview () {
   //   }
   // ]
 
-  console.log('data test:', data)
   data.forEach(report => {
     const {
       hostname,
@@ -146,12 +144,8 @@ export default function Overview () {
     }
   })
 
-  console.log('racks test:', racks)
-
   const filtered = racks
     .filter(rack => rack.datacenter === datacenter)
-
-  console.log('filtered test:', filtered)
 
   const rooms = unique(filtered, 'room')
 
@@ -162,8 +156,6 @@ export default function Overview () {
 
     return 1
   })
-
-  console.log('sorted test:', sorted)
 
   const nested = {}
 
@@ -185,12 +177,8 @@ export default function Overview () {
     nested[room] = nestedRoom
   })
 
-  console.log('nested test:', nested)
-
   const sections = sorted.map(room => {
     const rows = nested[room]
-
-    console.log('rows test:', rows)
 
     return (
       <Room 
@@ -203,9 +191,9 @@ export default function Overview () {
   })
 
   return (
-    <main>
+    <>
       <h1 className={'mainHeader'}>Datacenter {datacenter}</h1>
       {sections}
-    </main>
+    </>
   )
 }

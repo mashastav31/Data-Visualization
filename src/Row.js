@@ -2,70 +2,49 @@ import { Link } from 'react-router-dom'
 
 export default function Row ({
   number,
-  racks,
+  racks = [],
   datacenter,
   roomNumber
 }) {
-  console.log('racks test:', racks)
+  const numbers = Array.from(
+    {length: 20},
+    (_, i) => i + 1
+  )
+  const cells = numbers.map((rackNumber) => {
+    const string = rackNumber.toString()
 
-  const sorted = racks.sort((a, b) => {
-    if (a.number > b.number) {
-      return -1
-    }
+    const rack = racks
+      .find(rack => rack.number === string)
 
-    return 1
-  })
-
-  const rows = sorted.map(rack => {
-    const cells = rack.tors.map(tor => {
-      const { failed, hostname } = tor
-
-      const className = failed ? 'fail' : 'good'
-
-      return (
-        <td className={className} key={hostname}>
-          {hostname}
-        </td>
+    const path = rack && `/rack/${roomNumber}/${number}/${rack.number}?datacenter=${datacenter}`
+    const cell = rack && (
+      <Link to={path}>
+        {rackNumber}
+      </Link>
       )
-    })
 
-    const className = rack.failed ? 'fail' : 'good'
-
-    if (cells.length === 1) {
-      cells.push(
-        <td key='empty' className={className} />
-      )
-    }
-
-    const path = `/rack/${roomNumber}/${number}/${rack.number}?datacenter=${datacenter}`
+    const className = (rack && rack.failed)
+      ? 'fail'
+      : ''
 
     return (
-      <tr key={rack.number}>
-        <td className={className}>
-          <Link to={path}>
-            Rack {rack.number}
-          </Link>
-        </td>
-
-        {cells}
-      </tr>
+      <td className={className} key={rackNumber}>
+        {cell}
+      </td>
     )
   })
 
   const path = `/row/${roomNumber}/${number}?datacenter=${datacenter}`
 
   return (
-    <>
+    <tr>
+      <td className='row-number'>
+        <Link to={path}>
+          Row {number}
+        </Link>
+      </td>
 
-      <Link to={path} className={'rowView'}>
-        <h3>Row {number}</h3>
-      </Link>
-
-      <table className={'rowTable'}>
-        <tbody>
-          {rows}
-        </tbody>
-      </table>
-    </>
+      {cells}
+    </tr>
   )
 }
