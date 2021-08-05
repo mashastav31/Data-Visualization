@@ -15,7 +15,7 @@ At a glance the user is able to:
 3. View the status of every rack:
         - green color cells for passing
         - red color cells for failing
-4. Access any rack and view detaile TOR/s info
+4. Access any rack and view detailed TOR/s info
 
 ```
 
