@@ -1,941 +1,6330 @@
 [
-    {
-      "location": "USMTT1.1100.15.18.26",
-      "hostname": "usmtt1-tor-1",
-      "latency_us": 120.1,
-      "loss": 0.01,
-      "type": "vertical"
-    },
-    {
-      "location": "USMTT1.1100.15.18.26",
-      "hostname": "usmtt1-tor-1",
-      "latency_us": 1200.1,
-      "loss": 0.2,
-      "type": "horizontal"
-    },
-    {
-      "location": "USMTT1.1100.15.18.26",
-      "hostname": "usmtt1-tor-2",
-      "latency_us": 123.1,
-      "loss": 15.22,
-      "type": "vertical"
-    },
-    {
-      "location": "USMTT1.1100.15.18.26",
-      "hostname": "usmtt1-tor-2",
-      "latency_us": 118.1,
-      "loss": 20.22,
-      "type": "horizontal"
-    },
-    {
-      "location": "USMTT1.1100.15.15.26",
-      "hostname": "usmtt1-tor-3",
-      "latency_us": 0,
-      "loss": 5.0,
-      "type": "vertical"
-    },
-    {
-      "location": "USMTT1.1100.15.15.26",
-      "hostname": "usmtt1-tor-3",
-      "latency_us": 17023.1,
-      "loss": 0.0,
-      "type": "horizontal"
-    },
-    {
-      "location": "USSTV1.1100.10.15.26",
-      "hostname": "usstv1-tor-4",
-      "latency_us": 206.1,
-      "loss": 99.0,
-      "type": "vertical"
-    },
-    {
-      "location": "USSTV1.1100.10.15.26",
-      "hostname": "usstv1-tor-4",
-      "latency_us": 103.1,
-      "loss": 0.0,
-      "type": "horizontal"
-    },
-    {
-      "location": "USMTT1.1100.1.8.26",
-      "hostname": "usmtt1-tor-5",
-      "latency_us": 120.1,
-      "loss": 0.01,
-      "type": "vertical"
-    },
-    {
-      "location": "USMTT1.1100.1.8.26",
-      "hostname": "usmtt1-tor-5",
-      "latency_us": 1200.1,
-      "loss": 0.2,
-      "type": "horizontal"
-    },
-    {
-      "location": "USMTT1.1100.2.8.26",
-      "hostname": "usmtt1-tor-6",
-      "latency_us": 123.1,
-      "loss": 15.22,
-      "type": "vertical"
-    },
-    {
-      "location": "USMTT1.1100.2.8.26",
-      "hostname": "usmtt1-tor-6",
-      "latency_us": 118.1,
-      "loss": 20.22,
-      "type": "horizontal"
-    },
-    {
-      "location": "USMTT1.1100.5.12.26",
-      "hostname": "usmtt1-tor-7",
-      "latency_us": 0.1,
-      "loss": 0.01,
-      "type": "vertical"
-    },
-    {
-      "location": "USMTT1.1100.5.12.26",
-      "hostname": "usmtt1-tor-7",
-      "latency_us": 200.1,
-      "loss": 0.2,
-      "type": "horizontal"
-    },
-    {
-      "location": "USMTT1.1100.5.12.26",
-      "hostname": "usmtt1-tor-8",
-      "latency_us": 23.1,
-      "loss": 5.22,
-      "type": "vertical"
-    },
-    {
-      "location": "USMTT1.1100.5.12.26",
-      "hostname": "usmtt1-tor-8",
-      "latency_us": 118.1,
-      "loss": 0.22,
-      "type": "horizontal"
-    },
-    {
-        "location": "USMTT1.1100.6.11.26",
-        "hostname": "usmtt1-tor-9",
-        "latency_us": 0.1,
-        "loss": 0.01,
-        "type": "vertical"
-      },
-      {
-        "location": "USMTT1.1100.6.11.26",
-        "hostname": "usmtt1-tor-9",
-        "latency_us": 200.1,
-        "loss": 0.2,
-        "type": "horizontal"
-      },
-      {
-        "location": "USMTT1.1100.7.2.26",
-        "hostname": "usmtt1-tor-10",
-        "latency_us": 23.1,
-        "loss": 5.22,
-        "type": "vertical"
-      },
-      {
-        "location": "USMTT1.1100.7.2.26",
-        "hostname": "usmtt1-tor-10",
-        "latency_us": 118.1,
-        "loss": 0.22,
-        "type": "horizontal"
-      },
-      {
-        "location": "USMTT1.1100.17.2.26",
-        "hostname": "usmtt1-tor-11",
-        "latency_us": 0.1,
-        "loss": 0.01,
-        "type": "vertical"
-      },
-      {
-        "location": "USMTT1.1100.17.2.26",
-        "hostname": "usmtt1-tor-11",
-        "latency_us": 200.1,
-        "loss": 0.2,
-        "type": "horizontal"
-      },
-      {
-        "location": "USMTT1.1100.17.1.26",
-        "hostname": "usmtt1-tor-12",
-        "latency_us": 23.1,
-        "loss": 5.22,
-        "type": "vertical"
-      },
-      {
-        "location": "USMTT1.1100.17.1.26",
-        "hostname": "usmtt1-tor-12",
-        "latency_us": 118.1,
-        "loss": 0.22,
-        "type": "horizontal"
-      },
-      {
-        "location": "USMTT1.1200.15.4.26",
-        "hostname": "usmtt1-tor-13",
-        "latency_us": 120.1,
-        "loss": 0.01,
-        "type": "vertical"
-      },
-      {
-        "location": "USMTT1.1200.15.4.26",
-        "hostname": "usmtt1-tor-13",
-        "latency_us": 1200.1,
-        "loss": 0.2,
-        "type": "horizontal"
-      },
-      {
-        "location": "USMTT1.1200.15.4.26",
-        "hostname": "usmtt1-tor-14",
-        "latency_us": 123.1,
-        "loss": 15.22,
-        "type": "vertical"
-      },
-      {
-        "location": "USMTT1.1200.15.4.26",
-        "hostname": "usmtt1-tor-14",
-        "latency_us": 118.1,
-        "loss": 20.22,
-        "type": "horizontal"
-      },
-      {
-        "location": "USMTT1.1200.15.2.26",
-        "hostname": "usmtt1-tor-15",
-        "latency_us": 0,
-        "loss": 5.0,
-        "type": "vertical"
-      },
-      {
-        "location": "USMTT1.1200.15.2.26",
-        "hostname": "usmtt1-tor-15",
-        "latency_us": 17023.1,
-        "loss": 0.0,
-        "type": "horizontal"
-      },
-      {
-        "location": "USSTV1.1200.10.12.26",
-        "hostname": "usstv1-tor-16",
-        "latency_us": 206.1,
-        "loss": 99.0,
-        "type": "vertical"
-      },
-      {
-        "location": "USSTV1.1200.10.12.26",
-        "hostname": "usstv1-tor-16",
-        "latency_us": 103.1,
-        "loss": 0.0,
-        "type": "horizontal"
-      },
-      {
-        "location": "USMTT1.1200.1.7.26",
-        "hostname": "usmtt1-tor-17",
-        "latency_us": 120.1,
-        "loss": 0.01,
-        "type": "vertical"
-      },
-      {
-        "location": "USMTT1.1200.1.7.26",
-        "hostname": "usmtt1-tor-17",
-        "latency_us": 1200.1,
-        "loss": 0.2,
-        "type": "horizontal"
-      },
-      {
-        "location": "USMTT1.1200.1.7.26",
-        "hostname": "usmtt1-tor-18",
-        "latency_us": 123.1,
-        "loss": 15.22,
-        "type": "vertical"
-      },
-      {
-        "location": "USMTT1.1200.1.7.26",
-        "hostname": "usmtt1-tor-18",
-        "latency_us": 118.1,
-        "loss": 20.22,
-        "type": "horizontal"
-      },
-      {
-        "location": "USMTT1.1200.1.19.26",
-        "hostname": "usmtt1-tor-19",
-        "latency_us": 0.1,
-        "loss": 0.01,
-        "type": "vertical"
-      },
-      {
-        "location": "USMTT1.1200.1.19.26",
-        "hostname": "usmtt1-tor-19",
-        "latency_us": 200.1,
-        "loss": 0.2,
-        "type": "horizontal"
-      },
-      {
-        "location": "USMTT1.1200.1.19.26",
-        "hostname": "usmtt1-tor-20",
-        "latency_us": 23.1,
-        "loss": 5.22,
-        "type": "vertical"
-      },
-      {
-        "location": "USMTT1.1200.1.19.26",
-        "hostname": "usmtt1-tor-20",
-        "latency_us": 118.1,
-        "loss": 0.22,
-        "type": "horizontal"
-      },
-      {
-          "location": "USMTT1.1200.2.20.26",
-          "hostname": "usmtt1-tor-21",
-          "latency_us": 0.1,
-          "loss": 0.01,
-          "type": "vertical"
-        },
-        {
-          "location": "USMTT1.1200.2.20.26",
-          "hostname": "usmtt1-tor-21",
-          "latency_us": 200.1,
-          "loss": 0.2,
-          "type": "horizontal"
-        },
-        {
-          "location": "USMTT1.1200.2.20.26",
-          "hostname": "usmtt1-tor-22",
-          "latency_us": 23.1,
-          "loss": 5.22,
-          "type": "vertical"
-        },
-        {
-          "location": "USMTT1.1200.2.20.26",
-          "hostname": "usmtt1-tor-22",
-          "latency_us": 118.1,
-          "loss": 0.22,
-          "type": "horizontal"
-        },
-        {
-          "location": "USMTT1.1200.17.8.26",
-          "hostname": "usmtt1-tor-23",
-          "latency_us": 0.1,
-          "loss": 0.01,
-          "type": "vertical"
-        },
-        {
-          "location": "USMTT1.1200.17.8.26",
-          "hostname": "usmtt1-tor-23",
-          "latency_us": 200.1,
-          "loss": 0.2,
-          "type": "horizontal"
-        },
-        {
-          "location": "USMTT1.1200.17.8.26",
-          "hostname": "usmtt1-tor-24",
-          "latency_us": 23.1,
-          "loss": 5.22,
-          "type": "vertical"
-        },
-        {
-          "location": "USMTT1.1200.17.8.26",
-          "hostname": "usmtt1-tor-24",
-          "latency_us": 118.1,
-          "loss": 0.22,
-          "type": "horizontal"
-        },
-        {
-            "location": "USMTT1.1500.15.18.26",
-            "hostname": "usmtt1-tor-25",
-            "latency_us": 120.1,
-            "loss": 0.01,
-            "type": "vertical"
-          },
-          {
-            "location": "USMTT1.1500.15.18.26",
-            "hostname": "usmtt1-tor-25",
-            "latency_us": 1200.1,
-            "loss": 0.2,
-            "type": "horizontal"
-          },
-          {
-            "location": "USMTT1.1500.15.18.26",
-            "hostname": "usmtt1-tor-26",
-            "latency_us": 123.1,
-            "loss": 15.22,
-            "type": "vertical"
-          },
-          {
-            "location": "USMTT1.1500.15.18.26",
-            "hostname": "usmtt1-tor-26",
-            "latency_us": 118.1,
-            "loss": 20.22,
-            "type": "horizontal"
-          },
-          {
-            "location": "USMTT1.1500.15.15.26",
-            "hostname": "usmtt1-tor-27",
-            "latency_us": 0,
-            "loss": 5.0,
-            "type": "vertical"
-          },
-          {
-            "location": "USMTT1.1500.15.15.26",
-            "hostname": "usmtt1-tor-27",
-            "latency_us": 17023.1,
-            "loss": 0.0,
-            "type": "horizontal"
-          },
-          {
-            "location": "USSTV1.1500.10.15.26",
-            "hostname": "usstv1-tor-28",
-            "latency_us": 206.1,
-            "loss": 99.0,
-            "type": "vertical"
-          },
-          {
-            "location": "USSTV1.1500.10.15.26",
-            "hostname": "usstv1-tor-28",
-            "latency_us": 103.1,
-            "loss": 0.0,
-            "type": "horizontal"
-          },
-          {
-            "location": "USMTT1.1500.1.8.26",
-            "hostname": "usmtt1-tor-29",
-            "latency_us": 120.1,
-            "loss": 0.01,
-            "type": "vertical"
-          },
-          {
-            "location": "USMTT1.1500.1.8.26",
-            "hostname": "usmtt1-tor-29",
-            "latency_us": 1200.1,
-            "loss": 0.2,
-            "type": "horizontal"
-          },
-          {
-            "location": "USMTT1.1500.2.8.26",
-            "hostname": "usmtt1-tor-30",
-            "latency_us": 123.1,
-            "loss": 15.22,
-            "type": "vertical"
-          },
-          {
-            "location": "USMTT1.1500.2.8.26",
-            "hostname": "usmtt1-tor-30",
-            "latency_us": 118.1,
-            "loss": 20.22,
-            "type": "horizontal"
-          },
-          {
-            "location": "USMTT1.1500.5.12.26",
-            "hostname": "usmtt1-tor-31",
-            "latency_us": 0.1,
-            "loss": 0.01,
-            "type": "vertical"
-          },
-          {
-            "location": "USMTT1.1500.5.12.26",
-            "hostname": "usmtt1-tor-31",
-            "latency_us": 200.1,
-            "loss": 0.2,
-            "type": "horizontal"
-          },
-          {
-            "location": "USMTT1.1500.5.12.26",
-            "hostname": "usmtt1-tor-33",
-            "latency_us": 23.1,
-            "loss": 5.22,
-            "type": "vertical"
-          },
-          {
-            "location": "USMTT1.1500.5.12.26",
-            "hostname": "usmtt1-tor-33",
-            "latency_us": 118.1,
-            "loss": 0.22,
-            "type": "horizontal"
-          },
-          {
-              "location": "USMTT1.1500.6.11.26",
-              "hostname": "usmtt1-tor-34",
-              "latency_us": 0.1,
-              "loss": 0.01,
-              "type": "vertical"
-            },
-            {
-              "location": "USMTT1.1500.6.11.26",
-              "hostname": "usmtt1-tor-34",
-              "latency_us": 200.1,
-              "loss": 0.2,
-              "type": "horizontal"
-            },
-            {
-              "location": "USMTT1.1500.7.2.26",
-              "hostname": "usmtt1-tor-35",
-              "latency_us": 23.1,
-              "loss": 5.22,
-              "type": "vertical"
-            },
-            {
-              "location": "USMTT1.1500.7.2.26",
-              "hostname": "usmtt1-tor-35",
-              "latency_us": 118.1,
-              "loss": 0.22,
-              "type": "horizontal"
-            },
-            {
-              "location": "USMTT1.1500.17.2.26",
-              "hostname": "usmtt1-tor-36",
-              "latency_us": 0.1,
-              "loss": 0.01,
-              "type": "vertical"
-            },
-            {
-              "location": "USMTT1.1500.17.2.26",
-              "hostname": "usmtt1-tor-36",
-              "latency_us": 200.1,
-              "loss": 0.2,
-              "type": "horizontal"
-            },
-            {
-              "location": "USMTT1.1100.1.1.26",
-              "hostname": "usmtt1-tor-37",
-              "latency_us": 120.1,
-              "loss": 0.01,
-              "type": "vertical"
-            },
-            {
-              "location": "USMTT1.1100.1.1.26",
-              "hostname": "usmtt1-tor-37",
-              "latency_us": 1200.1,
-              "loss": 0.2,
-              "type": "horizontal"
-            },
-            {
-              "location": "USMTT1.1100.2.1.26",
-              "hostname": "usmtt1-tor-38",
-              "latency_us": 123.1,
-              "loss": 15.22,
-              "type": "vertical"
-            },
-            {
-              "location": "USMTT1.1100.2.1.26",
-              "hostname": "usmtt1-tor-38",
-              "latency_us": 118.1,
-              "loss": 20.22,
-              "type": "horizontal"
-            },
-            {
-              "location": "USMTT1.1100.3.1.26",
-              "hostname": "usmtt1-tor-39",
-              "latency_us": 0,
-              "loss": 5.0,
-              "type": "vertical"
-            },
-            {
-              "location": "USMTT1.1100.3.1.26",
-              "hostname": "usmtt1-tor-39",
-              "latency_us": 17023.1,
-              "loss": 0.0,
-              "type": "horizontal"
-            },
-            {
-              "location": "USSTV1.1100.4.2.26",
-              "hostname": "usmtt1-tor-40",
-              "latency_us": 206.1,
-              "loss": 99.0,
-              "type": "vertical"
-            },
-            {
-              "location": "USSTV1.1100.4.2.26",
-              "hostname": "usmtt1-tor-40",
-              "latency_us": 103.1,
-              "loss": 0.0,
-              "type": "horizontal"
-            },
-            {
-              "location": "USMTT1.1100.5.1.26",
-              "hostname": "usmtt1-tor-41",
-              "latency_us": 120.1,
-              "loss": 0.01,
-              "type": "vertical"
-            },
-            {
-              "location": "USMTT1.1100.5.1.26",
-              "hostname": "usmtt1-tor-41",
-              "latency_us": 1200.1,
-              "loss": 0.2,
-              "type": "horizontal"
-            },
-            {
-              "location": "USMTT1.1100.6.1.26",
-              "hostname": "usmtt1-tor-42",
-              "latency_us": 123.1,
-              "loss": 15.22,
-              "type": "vertical"
-            },
-            {
-              "location": "USMTT1.1100.6.1.26",
-              "hostname": "usmtt1-tor-42",
-              "latency_us": 118.1,
-              "loss": 20.22,
-              "type": "horizontal"
-            },
-            {
-              "location": "USMTT1.1100.7.1.26",
-              "hostname": "usmtt1-tor-43",
-              "latency_us": 0.1,
-              "loss": 0.01,
-              "type": "vertical"
-            },
-            {
-              "location": "USMTT1.1100.7.1.26",
-              "hostname": "usmtt1-tor-43",
-              "latency_us": 200.1,
-              "loss": 0.2,
-              "type": "horizontal"
-            },
-            {
-              "location": "USMTT1.1100.8.2.26",
-              "hostname": "usmtt1-tor-44",
-              "latency_us": 23.1,
-              "loss": 5.22,
-              "type": "vertical"
-            },
-            {
-              "location": "USMTT1.1100.8.2.26",
-              "hostname": "usmtt1-tor-44",
-              "latency_us": 118.1,
-              "loss": 0.22,
-              "type": "horizontal"
-            },
-            {
-                "location": "USMTT1.1100.9.3.26",
-                "hostname": "usmtt1-tor-45",
-                "latency_us": 0.1,
-                "loss": 0.01,
-                "type": "vertical"
-              },
-              {
-                "location": "USMTT1.1100.9.3.26",
-                "hostname": "usmtt1-tor-45",
-                "latency_us": 200.1,
-                "loss": 0.2,
-                "type": "horizontal"
-              },
-              {
-                "location": "USMTT1.1100.7.2.26",
-                "hostname": "usmtt1-tor-46",
-                "latency_us": 23.1,
-                "loss": 5.22,
-                "type": "vertical"
-              },
-              {
-                "location": "USMTT1.1100.7.2.26",
-                "hostname": "usmtt1-tor-46",
-                "latency_us": 118.1,
-                "loss": 0.22,
-                "type": "horizontal"
-              },
-              {
-                "location": "USMTT1.1100.8.1.26",
-                "hostname": "usmtt1-tor-47",
-                "latency_us": 0.1,
-                "loss": 0.01,
-                "type": "vertical"
-              },
-              {
-                "location": "USMTT1.1100.8.1.26",
-                "hostname": "usmtt1-tor-47",
-                "latency_us": 200.1,
-                "loss": 0.2,
-                "type": "horizontal"
-              },
-              {
-                "location": "USMTT1.1100.9.4.26",
-                "hostname": "usmtt1-tor-48",
-                "latency_us": 23.1,
-                "loss": 5.22,
-                "type": "vertical"
-              },
-              {
-                "location": "USMTT1.1100.9.4.26",
-                "hostname": "usmtt1-tor-48",
-                "latency_us": 118.1,
-                "loss": 0.22,
-                "type": "horizontal"
-              },
-              {
-                "location": "USMTT1.1100.10.2.26",
-                "hostname": "usmtt1-tor-49",
-                "latency_us": 23.1,
-                "loss": 5.22,
-                "type": "vertical"
-              },
-              {
-                "location": "USMTT1.1100.10.2.26",
-                "hostname": "usmtt1-tor-49",
-                "latency_us": 118.1,
-                "loss": 0.22,
-                "type": "horizontal"
-              },
-              {
-                "location": "USMTT1.1100.11.5.26",
-                "hostname": "usmtt1-tor-50",
-                "latency_us": 0.1,
-                "loss": 0.01,
-                "type": "vertical"
-              },
-              {
-                "location": "USMTT1.1100.11.5.26",
-                "hostname": "usmtt1-tor-50",
-                "latency_us": 200.1,
-                "loss": 0.2,
-                "type": "horizontal"
-              },
-              {
-                "location": "USMTT1.1100.12.4.26",
-                "hostname": "usmtt1-tor-51",
-                "latency_us": 23.1,
-                "loss": 5.22,
-                "type": "vertical"
-              },
-              {
-                "location": "USMTT1.1100.12.4.26",
-                "hostname": "usmtt1-tor-51",
-                "latency_us": 118.1,
-                "loss": 0.22,
-                "type": "horizontal"
-              },
-              {
-                "location": "USMTT1.1100.12.1.26",
-                "hostname": "usmtt1-tor-52",
-                "latency_us": 0.1,
-                "loss": 0.01,
-                "type": "vertical"
-              },
-              {
-                "location": "USMTT1.1100.12.1.26",
-                "hostname": "usmtt1-tor-52",
-                "latency_us": 200.1,
-                "loss": 0.2,
-                "type": "horizontal"
-              },
-              {
-                "location": "USMTT1.1100.13.2.26",
-                "hostname": "usmtt1-tor-53",
-                "latency_us": 23.1,
-                "loss": 5.22,
-                "type": "vertical"
-              },
-              {
-                "location": "USMTT1.1100.13.2.26",
-                "hostname": "usmtt1-tor-53",
-                "latency_us": 118.1,
-                "loss": 0.22,
-                "type": "horizontal"
-              },
-              {
-                "location": "USMTT1.1100.15.5.26",
-                "hostname": "usmtt1-tor-54",
-                "latency_us": 0.1,
-                "loss": 0.01,
-                "type": "vertical"
-              },
-              {
-                "location": "USMTT1.1100.15.5.26",
-                "hostname": "usmtt1-tor-54",
-                "latency_us": 200.1,
-                "loss": 0.2,
-                "type": "horizontal"
-              },
-              {
-                "location": "USMTT1.1100.17.4.26",
-                "hostname": "usmtt1-tor-55",
-                "latency_us": 23.1,
-                "loss": 5.22,
-                "type": "vertical"
-              },
-              {
-                "location": "USMTT1.1100.17.4.26",
-                "hostname": "usmtt1-tor-55",
-                "latency_us": 118.1,
-                "loss": 0.22,
-                "type": "horizontal"
-              },
-              {
-                "location": "USMTT1.1100.11.15.26",
-                "hostname": "usmtt1-tor-56",
-                "latency_us": 0.1,
-                "loss": 0.01,
-                "type": "vertical"
-              },
-              {
-                "location": "USMTT1.1100.11.15.26",
-                "hostname": "usmtt1-tor-56",
-                "latency_us": 200.1,
-                "loss": 0.2,
-                "type": "horizontal"
-              },
-              {
-                "location": "USMTT1.1100.12.14.26",
-                "hostname": "usmtt1-tor-57",
-                "latency_us": 23.1,
-                "loss": 5.22,
-                "type": "vertical"
-              },
-              {
-                "location": "USMTT1.1100.12.14.26",
-                "hostname": "usmtt1-tor-57",
-                "latency_us": 118.1,
-                "loss": 0.22,
-                "type": "horizontal"
-              },
-              {
-                "location": "USMTT1.1100.18.11.26",
-                "hostname": "usmtt1-tor-58",
-                "latency_us": 23.1,
-                "loss": 5.22,
-                "type": "vertical"
-              },
-              {
-                "location": "USMTT1.1100.18.11.26",
-                "hostname": "usmtt1-tor-58",
-                "latency_us": 118.1,
-                "loss": 0.22,
-                "type": "horizontal"
-              },
-              {
-                "location": "USMTT1.1100.20.15.26",
-                "hostname": "usmtt1-tor-59",
-                "latency_us": 0.1,
-                "loss": 0.01,
-                "type": "vertical"
-              },
-              {
-                "location": "USMTT1.1100.20.15.26",
-                "hostname": "usmtt1-tor-59",
-                "latency_us": 200.1,
-                "loss": 0.2,
-                "type": "horizontal"
-              },
-              {
-                "location": "USMTT1.1100.19.14.26",
-                "hostname": "usmtt1-tor-60",
-                "latency_us": 23.1,
-                "loss": 5.22,
-                "type": "vertical"
-              },
-              {
-                "location": "USMTT1.1100.19.14.26",
-                "hostname": "usmtt1-tor-60",
-                "latency_us": 118.1,
-                "loss": 0.22,
-                "type": "horizontal"
-              },
-              {
-                "location": "USMTT1.1100.19.1.26",
-                "hostname": "usmtt1-tor-61",
-                "latency_us": 23.1,
-                "loss": 5.22,
-                "type": "vertical"
-              },
-              {
-                "location": "USMTT1.1100.19.1.26",
-                "hostname": "usmtt1-tor-61",
-                "latency_us": 118.1,
-                "loss": 0.22,
-                "type": "horizontal"
-              },
-              {
-                "location": "USMTT1.1100.2.20.26",
-                "hostname": "usmtt1-tor-62",
-                "latency_us": 23.1,
-                "loss": 5.22,
-                "type": "vertical"
-              },
-              {
-                "location": "USMTT1.1100.2.20.26",
-                "hostname": "usmtt1-tor-62",
-                "latency_us": 118.1,
-                "loss": 0.22,
-                "type": "horizontal"
-              },
-              {
-                "location": "USMTT1.1100.20.7.26",
-                "hostname": "usmtt1-tor-63",
-                "latency_us": 23.1,
-                "loss": 5.22,
-                "type": "vertical"
-              },
-              {
-                "location": "USMTT1.1100.20.7.26",
-                "hostname": "usmtt1-tor-63",
-                "latency_us": 118.1,
-                "loss": 0.22,
-                "type": "horizontal"
-              },
-              {
-                "location": "USMTT1.1100.5.20.26",
-                "hostname": "usmtt1-tor-64",
-                "latency_us": 23.1,
-                "loss": 5.22,
-                "type": "vertical"
-              },
-              {
-                "location": "USMTT1.1100.5.20.26",
-                "hostname": "usmtt1-tor-64",
-                "latency_us": 118.1,
-                "loss": 0.22,
-                "type": "horizontal"
-              },
-              {
-                "location": "USMTT1.1100.16.20.26",
-                "hostname": "usmtt1-tor-65",
-                "latency_us": 23.1,
-                "loss": 5.22,
-                "type": "vertical"
-              },
-              {
-                "location": "USMTT1.1100.16.20.26",
-                "hostname": "usmtt1-tor-65",
-                "latency_us": 118.1,
-                "loss": 0.22,
-                "type": "horizontal"
-              },
-              {
-                "location": "USMTT1.1100.8.10.26",
-                "hostname": "usmtt1-tor-66",
-                "latency_us": 23.1,
-                "loss": 5.22,
-                "type": "vertical"
-              },
-              {
-                "location": "USMTT1.1100.8.10.26",
-                "hostname": "usmtt1-tor-66",
-                "latency_us": 118.1,
-                "loss": 0.22,
-                "type": "horizontal"
-              },
-              {
-                "location": "USMTT1.1100.9.12.26",
-                "hostname": "usmtt1-tor-67",
-                "latency_us": 23.1,
-                "loss": 5.22,
-                "type": "vertical"
-              },
-              {
-                "location": "USMTT1.1100.9.12.26",
-                "hostname": "usmtt1-tor-67",
-                "latency_us": 118.1,
-                "loss": 0.22,
-                "type": "horizontal"
-              },
-              {
-                "location": "USMTT1.1100.14.9.26",
-                "hostname": "usmtt1-tor-68",
-                "latency_us": 23.1,
-                "loss": 5.22,
-                "type": "vertical"
-              },
-              {
-                "location": "USMTT1.1100.14.9.26",
-                "hostname": "usmtt1-tor-68",
-                "latency_us": 118.1,
-                "loss": 0.22,
-                "type": "horizontal"
-              }
-      
-  ]
+{
+"location": "USMTT1.1100.15.18.26",
+"hostname": "usmtt1-tor-1",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.15.18.26",
+"hostname": "usmtt1-tor-1",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.15.18.26",
+"hostname": "usmtt1-tor-2",
+"latency_us": 123.1,
+"loss": 15.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.15.18.26",
+"hostname": "usmtt1-tor-2",
+"latency_us": 118.1,
+"loss": 20.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.15.15.26",
+"hostname": "usmtt1-tor-3",
+"latency_us": 0,
+"loss": 5.0,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.15.15.26",
+"hostname": "usmtt1-tor-3",
+"latency_us": 17023.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USSTV1.1100.10.15.26",
+"hostname": "usstv1-tor-4",
+"latency_us": 206.1,
+"loss": 99.0,
+"type": "vertical"
+},
+{
+"location": "USSTV1.1100.10.15.26",
+"hostname": "usstv1-tor-4",
+"latency_us": 103.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.1.8.26",
+"hostname": "usmtt1-tor-5",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.1.8.26",
+"hostname": "usmtt1-tor-5",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.2.8.26",
+"hostname": "usmtt1-tor-6",
+"latency_us": 123.1,
+"loss": 15.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.2.8.26",
+"hostname": "usmtt1-tor-6",
+"latency_us": 118.1,
+"loss": 20.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.5.12.26",
+"hostname": "usmtt1-tor-7",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.5.12.26",
+"hostname": "usmtt1-tor-7",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.5.12.26",
+"hostname": "usmtt1-tor-8",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.5.12.26",
+"hostname": "usmtt1-tor-8",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.6.11.26",
+"hostname": "usmtt1-tor-9",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.6.11.26",
+"hostname": "usmtt1-tor-9",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.7.2.26",
+"hostname": "usmtt1-tor-10",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.7.2.26",
+"hostname": "usmtt1-tor-10",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.17.2.26",
+"hostname": "usmtt1-tor-11",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.17.2.26",
+"hostname": "usmtt1-tor-11",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.17.1.26",
+"hostname": "usmtt1-tor-12",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.17.1.26",
+"hostname": "usmtt1-tor-12",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1200.15.4.26",
+"hostname": "usmtt1-tor-13",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1200.15.4.26",
+"hostname": "usmtt1-tor-13",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1200.15.4.26",
+"hostname": "usmtt1-tor-14",
+"latency_us": 123.1,
+"loss": 15.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1200.15.4.26",
+"hostname": "usmtt1-tor-14",
+"latency_us": 118.1,
+"loss": 20.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1200.15.2.26",
+"hostname": "usmtt1-tor-15",
+"latency_us": 0,
+"loss": 5.0,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1200.15.2.26",
+"hostname": "usmtt1-tor-15",
+"latency_us": 17023.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USSTV1.1200.10.12.26",
+"hostname": "usstv1-tor-16",
+"latency_us": 206.1,
+"loss": 99.0,
+"type": "vertical"
+},
+{
+"location": "USSTV1.1200.10.12.26",
+"hostname": "usstv1-tor-16",
+"latency_us": 103.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1200.1.7.26",
+"hostname": "usmtt1-tor-17",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1200.1.7.26",
+"hostname": "usmtt1-tor-17",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1200.1.7.26",
+"hostname": "usmtt1-tor-18",
+"latency_us": 123.1,
+"loss": 15.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1200.1.7.26",
+"hostname": "usmtt1-tor-18",
+"latency_us": 118.1,
+"loss": 20.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1200.1.19.26",
+"hostname": "usmtt1-tor-19",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1200.1.19.26",
+"hostname": "usmtt1-tor-19",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1200.1.19.26",
+"hostname": "usmtt1-tor-20",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1200.1.19.26",
+"hostname": "usmtt1-tor-20",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1200.2.20.26",
+"hostname": "usmtt1-tor-21",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1200.2.20.26",
+"hostname": "usmtt1-tor-21",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1200.2.20.26",
+"hostname": "usmtt1-tor-22",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1200.2.20.26",
+"hostname": "usmtt1-tor-22",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1200.17.8.26",
+"hostname": "usmtt1-tor-23",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1200.17.8.26",
+"hostname": "usmtt1-tor-23",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1200.17.8.26",
+"hostname": "usmtt1-tor-24",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1200.17.8.26",
+"hostname": "usmtt1-tor-24",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1500.15.18.26",
+"hostname": "usmtt1-tor-25",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1500.15.18.26",
+"hostname": "usmtt1-tor-25",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1500.15.18.26",
+"hostname": "usmtt1-tor-26",
+"latency_us": 123.1,
+"loss": 15.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1500.15.18.26",
+"hostname": "usmtt1-tor-26",
+"latency_us": 118.1,
+"loss": 20.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1500.15.15.26",
+"hostname": "usmtt1-tor-27",
+"latency_us": 0,
+"loss": 5.0,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1500.15.15.26",
+"hostname": "usmtt1-tor-27",
+"latency_us": 17023.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USSTV1.1500.10.15.26",
+"hostname": "usstv1-tor-28",
+"latency_us": 206.1,
+"loss": 99.0,
+"type": "vertical"
+},
+{
+"location": "USSTV1.1500.10.15.26",
+"hostname": "usstv1-tor-28",
+"latency_us": 103.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1500.1.8.26",
+"hostname": "usmtt1-tor-29",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1500.1.8.26",
+"hostname": "usmtt1-tor-29",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1500.2.8.26",
+"hostname": "usmtt1-tor-30",
+"latency_us": 123.1,
+"loss": 15.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1500.2.8.26",
+"hostname": "usmtt1-tor-30",
+"latency_us": 118.1,
+"loss": 20.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1500.5.12.26",
+"hostname": "usmtt1-tor-31",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1500.5.12.26",
+"hostname": "usmtt1-tor-31",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1500.5.12.26",
+"hostname": "usmtt1-tor-33",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1500.5.12.26",
+"hostname": "usmtt1-tor-33",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1500.6.11.26",
+"hostname": "usmtt1-tor-34",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1500.6.11.26",
+"hostname": "usmtt1-tor-34",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1500.7.2.26",
+"hostname": "usmtt1-tor-35",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1500.7.2.26",
+"hostname": "usmtt1-tor-35",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1500.17.2.26",
+"hostname": "usmtt1-tor-36",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1500.17.2.26",
+"hostname": "usmtt1-tor-36",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.1.1.26",
+"hostname": "usmtt1-tor-37",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.1.1.26",
+"hostname": "usmtt1-tor-37",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.2.1.26",
+"hostname": "usmtt1-tor-38",
+"latency_us": 123.1,
+"loss": 15.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.2.1.26",
+"hostname": "usmtt1-tor-38",
+"latency_us": 118.1,
+"loss": 20.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.3.1.26",
+"hostname": "usmtt1-tor-39",
+"latency_us": 0,
+"loss": 5.0,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.3.1.26",
+"hostname": "usmtt1-tor-39",
+"latency_us": 17023.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USSTV1.1100.4.2.26",
+"hostname": "usmtt1-tor-40",
+"latency_us": 206.1,
+"loss": 99.0,
+"type": "vertical"
+},
+{
+"location": "USSTV1.1100.4.2.26",
+"hostname": "usmtt1-tor-40",
+"latency_us": 103.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.5.1.26",
+"hostname": "usmtt1-tor-41",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.5.1.26",
+"hostname": "usmtt1-tor-41",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.6.1.26",
+"hostname": "usmtt1-tor-42",
+"latency_us": 123.1,
+"loss": 15.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.6.1.26",
+"hostname": "usmtt1-tor-42",
+"latency_us": 118.1,
+"loss": 20.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.7.1.26",
+"hostname": "usmtt1-tor-43",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.7.1.26",
+"hostname": "usmtt1-tor-43",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.8.2.26",
+"hostname": "usmtt1-tor-44",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.8.2.26",
+"hostname": "usmtt1-tor-44",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.9.3.26",
+"hostname": "usmtt1-tor-45",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.9.3.26",
+"hostname": "usmtt1-tor-45",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.7.2.26",
+"hostname": "usmtt1-tor-46",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.7.2.26",
+"hostname": "usmtt1-tor-46",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.8.1.26",
+"hostname": "usmtt1-tor-47",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.8.1.26",
+"hostname": "usmtt1-tor-47",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.9.4.26",
+"hostname": "usmtt1-tor-48",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.9.4.26",
+"hostname": "usmtt1-tor-48",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.10.2.26",
+"hostname": "usmtt1-tor-49",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.10.2.26",
+"hostname": "usmtt1-tor-49",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.11.5.26",
+"hostname": "usmtt1-tor-50",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.11.5.26",
+"hostname": "usmtt1-tor-50",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.12.4.26",
+"hostname": "usmtt1-tor-51",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.12.4.26",
+"hostname": "usmtt1-tor-51",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.12.1.26",
+"hostname": "usmtt1-tor-52",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.12.1.26",
+"hostname": "usmtt1-tor-52",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.13.2.26",
+"hostname": "usmtt1-tor-53",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.13.2.26",
+"hostname": "usmtt1-tor-53",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.15.5.26",
+"hostname": "usmtt1-tor-54",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.15.5.26",
+"hostname": "usmtt1-tor-54",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.17.4.26",
+"hostname": "usmtt1-tor-55",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.17.4.26",
+"hostname": "usmtt1-tor-55",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.11.15.26",
+"hostname": "usmtt1-tor-56",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.11.15.26",
+"hostname": "usmtt1-tor-56",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.12.14.26",
+"hostname": "usmtt1-tor-57",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.12.14.26",
+"hostname": "usmtt1-tor-57",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.18.11.26",
+"hostname": "usmtt1-tor-58",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.18.11.26",
+"hostname": "usmtt1-tor-58",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.20.15.26",
+"hostname": "usmtt1-tor-59",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.20.15.26",
+"hostname": "usmtt1-tor-59",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.19.14.26",
+"hostname": "usmtt1-tor-60",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.19.14.26",
+"hostname": "usmtt1-tor-60",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.19.1.26",
+"hostname": "usmtt1-tor-61",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.19.1.26",
+"hostname": "usmtt1-tor-61",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.2.20.26",
+"hostname": "usmtt1-tor-62",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.2.20.26",
+"hostname": "usmtt1-tor-62",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.20.7.26",
+"hostname": "usmtt1-tor-63",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.20.7.26",
+"hostname": "usmtt1-tor-63",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.5.20.26",
+"hostname": "usmtt1-tor-64",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.5.20.26",
+"hostname": "usmtt1-tor-64",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.16.20.26",
+"hostname": "usmtt1-tor-65",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.16.20.26",
+"hostname": "usmtt1-tor-65",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.8.10.26",
+"hostname": "usmtt1-tor-66",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.8.10.26",
+"hostname": "usmtt1-tor-66",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.9.12.26",
+"hostname": "usmtt1-tor-67",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.9.12.26",
+"hostname": "usmtt1-tor-67",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.14.9.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.14.9.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},{
+"location": "USMTT1.1100.1.2.26",
+"hostname": "usmtt1-tor-67",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.1.2.26",
+"hostname": "usmtt1-tor-67",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.1.3.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 123.1,
+"loss": 15.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.1.3.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 118.1,
+"loss": 20.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.1.4.26",
+"hostname": "usmtt1-tor-69",
+"latency_us": 0,
+"loss": 5.0,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.1.4.26",
+"hostname": "usmtt1-tor-69",
+"latency_us": 17023.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.1.5.26",
+"hostname": "usmtt1-tor-70",
+"latency_us": 206.1,
+"loss": 99.0,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.1.5.26",
+"hostname": "usmtt1-tor-70",
+"latency_us": 103.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.1.6.26",
+"hostname": "usmtt1-tor-71",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.1.6.26",
+"hostname": "usmtt1-tor-71",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.1.7.26",
+"hostname": "usmtt1-tor-72",
+"latency_us": 123.1,
+"loss": 15.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.1.7.26",
+"hostname": "usmtt1-tor-72",
+"latency_us": 118.1,
+"loss": 20.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.1.9.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.1.9.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.1.10.26",
+"hostname": "usmtt1-tor-74",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.1.10.26",
+"hostname": "usmtt1-tor-74",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.1.11.26",
+"hostname": "usmtt1-tor-75",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.1.11.26",
+"hostname": "usmtt1-tor-75",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.1.1.26",
+"hostname": "usmtt1-tor-76",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.1.12.26",
+"hostname": "usmtt1-tor-76",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.1.13.26",
+"hostname": "usmtt1-tor-77",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.1.13.26",
+"hostname": "usmtt1-tor-77",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.1.14.26",
+"hostname": "usmtt1-tor-78",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.1.14.26",
+"hostname": "usmtt1-tor-78",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.1.15.26",
+"hostname": "usmtt1-tor-79",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.1.15.26",
+"hostname": "usmtt1-tor-79",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.1.16.26",
+"hostname": "usmtt1-tor-80",
+"latency_us": 123.1,
+"loss": 15.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.1.16.26",
+"hostname": "usmtt1-tor-80",
+"latency_us": 118.1,
+"loss": 20.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.1.17.26",
+"hostname": "usmtt1-tor-81",
+"latency_us": 0,
+"loss": 5.0,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.1.17.26",
+"hostname": "usmtt1-tor-81",
+"latency_us": 17023.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.1.18.26",
+"hostname": "usstv1-tor-82",
+"latency_us": 206.1,
+"loss": 99.0,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.1.18.26",
+"hostname": "usstv1-tor-82",
+"latency_us": 103.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.1.19.26",
+"hostname": "usmtt1-tor-83",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.1.19.26",
+"hostname": "usmtt1-tor-83",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.1.20.26",
+"hostname": "usmtt1-tor-84",
+"latency_us": 123.1,
+"loss": 15.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.1.20.26",
+"hostname": "usmtt1-tor-84",
+"latency_us": 118.1,
+"loss": 20.22,
+"type": "horizontal"
+},{
+"location": "USMTT1.1100.2.2.26",
+"hostname": "usmtt1-tor-67",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.2.2.26",
+"hostname": "usmtt1-tor-67",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.2.3.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 123.1,
+"loss": 15.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.2.3.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 118.1,
+"loss": 20.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.2.4.26",
+"hostname": "usmtt1-tor-69",
+"latency_us": 0,
+"loss": 0.04,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.2.4.26",
+"hostname": "usmtt1-tor-69",
+"latency_us": 23.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.2.5.26",
+"hostname": "usstv1-tor-70",
+"latency_us": 206.1,
+"loss": 99.0,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.2.5.26",
+"hostname": "usstv1-tor-70",
+"latency_us": 103.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.2.6.26",
+"hostname": "usmtt1-tor-71",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.2.6.26",
+"hostname": "usmtt1-tor-71",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.2.7.26",
+"hostname": "usmtt1-tor-72",
+"latency_us": 123.1,
+"loss": 15.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.2.7.26",
+"hostname": "usmtt1-tor-72",
+"latency_us": 118.1,
+"loss": 20.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.2.9.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.2.9.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.2.10.26",
+"hostname": "usmtt1-tor-74",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.2.10.26",
+"hostname": "usmtt1-tor-74",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.2.11.26",
+"hostname": "usmtt1-tor-75",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.2.11.26",
+"hostname": "usmtt1-tor-75",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.2.1.26",
+"hostname": "usmtt1-tor-76",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.2.12.26",
+"hostname": "usmtt1-tor-76",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.2.13.26",
+"hostname": "usmtt1-tor-77",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.2.13.26",
+"hostname": "usmtt1-tor-77",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.2.14.26",
+"hostname": "usmtt1-tor-78",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.2.14.26",
+"hostname": "usmtt1-tor-78",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.2.15.26",
+"hostname": "usmtt1-tor-79",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.2.15.26",
+"hostname": "usmtt1-tor-79",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.2.16.26",
+"hostname": "usmtt1-tor-80",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.2.16.26",
+"hostname": "usmtt1-tor-80",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.2.17.26",
+"hostname": "usmtt1-tor-81",
+"latency_us": 0,
+"loss": 5.0,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.2.17.26",
+"hostname": "usmtt1-tor-81",
+"latency_us": 230.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.2.18.26",
+"hostname": "usstv1-tor-82",
+"latency_us": 206.1,
+"loss": 99.0,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.2.18.26",
+"hostname": "usstv1-tor-82",
+"latency_us": 103.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.2.19.26",
+"hostname": "usmtt1-tor-83",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.2.19.26",
+"hostname": "usmtt1-tor-83",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.2.20.26",
+"hostname": "usmtt1-tor-84",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.2.20.26",
+"hostname": "usmtt1-tor-84",
+"latency_us": 18.1,
+"loss": 0.22,
+"type": "horizontal"
+},{
+"location": "USMTT1.1100.3.2.26",
+"hostname": "usmtt1-tor-67",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.3.2.26",
+"hostname": "usmtt1-tor-67",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.3.3.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.3.3.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.3.4.26",
+"hostname": "usmtt1-tor-69",
+"latency_us": 0,
+"loss": 0.04,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.3.4.26",
+"hostname": "usmtt1-tor-69",
+"latency_us": 23.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.3.5.26",
+"hostname": "usstv1-tor-70",
+"latency_us": 206.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.3.5.26",
+"hostname": "usstv1-tor-70",
+"latency_us": 103.1,
+"loss": 0.1,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.3.6.26",
+"hostname": "usmtt1-tor-71",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.3.6.26",
+"hostname": "usmtt1-tor-71",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.3.7.26",
+"hostname": "usmtt1-tor-72",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.3.7.26",
+"hostname": "usmtt1-tor-72",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.3.8.26",
+"hostname": "usmtt1-tor-72",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.3.8.26",
+"hostname": "usmtt1-tor-72",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.3.9.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.3.9.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.3.10.26",
+"hostname": "usmtt1-tor-74",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.3.10.26",
+"hostname": "usmtt1-tor-74",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.3.11.26",
+"hostname": "usmtt1-tor-75",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.3.11.26",
+"hostname": "usmtt1-tor-75",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.3.12.26",
+"hostname": "usmtt1-tor-76",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.3.12.26",
+"hostname": "usmtt1-tor-76",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.3.13.26",
+"hostname": "usmtt1-tor-77",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.3.13.26",
+"hostname": "usmtt1-tor-77",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.3.14.26",
+"hostname": "usmtt1-tor-78",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.3.14.26",
+"hostname": "usmtt1-tor-78",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.3.15.26",
+"hostname": "usmtt1-tor-79",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.3.15.26",
+"hostname": "usmtt1-tor-79",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.3.16.26",
+"hostname": "usmtt1-tor-80",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.3.16.26",
+"hostname": "usmtt1-tor-80",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.3.17.26",
+"hostname": "usmtt1-tor-81",
+"latency_us": 0,
+"loss": 5.0,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.3.17.26",
+"hostname": "usmtt1-tor-81",
+"latency_us": 230.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.3.18.26",
+"hostname": "usstv1-tor-82",
+"latency_us": 206.1,
+"loss": 0.03,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.3.18.26",
+"hostname": "usstv1-tor-82",
+"latency_us": 103.1,
+"loss": 0.03,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.3.19.26",
+"hostname": "usmtt1-tor-83",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.3.19.26",
+"hostname": "usmtt1-tor-83",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.3.20.26",
+"hostname": "usmtt1-tor-84",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.3.20.26",
+"hostname": "usmtt1-tor-84",
+"latency_us": 18.1,
+"loss": 0.22,
+"type": "horizontal"
+},{
+"location": "USMTT1.1100.4.1.26",
+"hostname": "usmtt1-tor-67",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.4.1.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},{
+"location": "USMTT1.1100.4.2.26",
+"hostname": "usmtt1-tor-67",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.4.3.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.4.3.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.4.4.26",
+"hostname": "usmtt1-tor-69",
+"latency_us": 0,
+"loss": 0.04,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.4.4.26",
+"hostname": "usmtt1-tor-69",
+"latency_us": 23.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.4.5.26",
+"hostname": "usstv1-tor-70",
+"latency_us": 206.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.4.5.26",
+"hostname": "usstv1-tor-70",
+"latency_us": 103.1,
+"loss": 0.1,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.4.6.26",
+"hostname": "usmtt1-tor-71",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.4.6.26",
+"hostname": "usmtt1-tor-71",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.4.7.26",
+"hostname": "usmtt1-tor-72",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.4.7.26",
+"hostname": "usmtt1-tor-72",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.4.9.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 1110.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.4.9.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.4.8.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.4.8.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.4.10.26",
+"hostname": "usmtt1-tor-74",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.4.10.26",
+"hostname": "usmtt1-tor-74",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.4.11.26",
+"hostname": "usmtt1-tor-75",
+"latency_us": 11110.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.4.11.26",
+"hostname": "usmtt1-tor-75",
+"latency_us": 11200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.4.12.26",
+"hostname": "usmtt1-tor-76",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.4.12.26",
+"hostname": "usmtt1-tor-76",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.4.13.26",
+"hostname": "usmtt1-tor-77",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.4.13.26",
+"hostname": "usmtt1-tor-77",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.4.14.26",
+"hostname": "usmtt1-tor-78",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.4.14.26",
+"hostname": "usmtt1-tor-78",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.4.15.26",
+"hostname": "usmtt1-tor-79",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.4.15.26",
+"hostname": "usmtt1-tor-79",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.4.16.26",
+"hostname": "usmtt1-tor-80",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.4.16.26",
+"hostname": "usmtt1-tor-80",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.4.17.26",
+"hostname": "usmtt1-tor-81",
+"latency_us": 0,
+"loss": 5.0,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.4.17.26",
+"hostname": "usmtt1-tor-81",
+"latency_us": 230.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.4.18.26",
+"hostname": "usstv1-tor-82",
+"latency_us": 206.1,
+"loss": 0.03,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.4.18.26",
+"hostname": "usstv1-tor-82",
+"latency_us": 103.1,
+"loss": 0.03,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.4.19.26",
+"hostname": "usmtt1-tor-83",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.4.19.26",
+"hostname": "usmtt1-tor-83",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.4.20.26",
+"hostname": "usmtt1-tor-84",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.4.20.26",
+"hostname": "usmtt1-tor-84",
+"latency_us": 18.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.5.1.26",
+"hostname": "usmtt1-tor-67",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.5.1.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},{
+"location": "USMTT1.1100.5.2.26",
+"hostname": "usmtt1-tor-67",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.5.3.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.5.3.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.5.4.26",
+"hostname": "usmtt1-tor-69",
+"latency_us": 0,
+"loss": 0.04,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.5.4.26",
+"hostname": "usmtt1-tor-69",
+"latency_us": 23.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.5.5.26",
+"hostname": "usstv1-tor-70",
+"latency_us": 206.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.5.5.26",
+"hostname": "usstv1-tor-70",
+"latency_us": 103.1,
+"loss": 0.1,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.5.6.26",
+"hostname": "usmtt1-tor-71",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.5.6.26",
+"hostname": "usmtt1-tor-71",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.5.7.26",
+"hostname": "usmtt1-tor-72",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.5.7.26",
+"hostname": "usmtt1-tor-72",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.5.9.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 1110.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.5.9.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.5.8.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.5.8.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.5.10.26",
+"hostname": "usmtt1-tor-74",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.5.10.26",
+"hostname": "usmtt1-tor-74",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.5.11.26",
+"hostname": "usmtt1-tor-75",
+"latency_us": 11110.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.5.11.26",
+"hostname": "usmtt1-tor-75",
+"latency_us": 11200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.5.12.26",
+"hostname": "usmtt1-tor-76",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.5.12.26",
+"hostname": "usmtt1-tor-76",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.5.13.26",
+"hostname": "usmtt1-tor-77",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.5.13.26",
+"hostname": "usmtt1-tor-77",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.5.14.26",
+"hostname": "usmtt1-tor-78",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.5.14.26",
+"hostname": "usmtt1-tor-78",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.5.15.26",
+"hostname": "usmtt1-tor-79",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.5.15.26",
+"hostname": "usmtt1-tor-79",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.5.16.26",
+"hostname": "usmtt1-tor-80",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.5.16.26",
+"hostname": "usmtt1-tor-80",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.5.17.26",
+"hostname": "usmtt1-tor-81",
+"latency_us": 0,
+"loss": 5.0,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.5.17.26",
+"hostname": "usmtt1-tor-81",
+"latency_us": 230.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.5.18.26",
+"hostname": "usstv1-tor-82",
+"latency_us": 206.1,
+"loss": 0.03,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.5.18.26",
+"hostname": "usstv1-tor-82",
+"latency_us": 103.1,
+"loss": 0.03,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.5.19.26",
+"hostname": "usmtt1-tor-83",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.5.19.26",
+"hostname": "usmtt1-tor-83",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.5.20.26",
+"hostname": "usmtt1-tor-84",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.5.20.26",
+"hostname": "usmtt1-tor-84",
+"latency_us": 18.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.6.1.26",
+"hostname": "usmtt1-tor-67",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.6.1.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},{
+"location": "USMTT1.1100.6.2.26",
+"hostname": "usmtt1-tor-67",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.6.3.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.6.3.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.6.4.26",
+"hostname": "usmtt1-tor-69",
+"latency_us": 0,
+"loss": 0.04,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.6.4.26",
+"hostname": "usmtt1-tor-69",
+"latency_us": 23.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.6.5.26",
+"hostname": "usstv1-tor-70",
+"latency_us": 206.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.6.5.26",
+"hostname": "usstv1-tor-70",
+"latency_us": 103.1,
+"loss": 0.1,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.6.6.26",
+"hostname": "usmtt1-tor-71",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.6.6.26",
+"hostname": "usmtt1-tor-71",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.6.7.26",
+"hostname": "usmtt1-tor-72",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.6.7.26",
+"hostname": "usmtt1-tor-72",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.6.9.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 1110.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.6.9.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.6.8.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 11110.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.6.8.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 11200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.6.10.26",
+"hostname": "usmtt1-tor-74",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.6.10.26",
+"hostname": "usmtt1-tor-74",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.6.11.26",
+"hostname": "usmtt1-tor-75",
+"latency_us": 110.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.6.11.26",
+"hostname": "usmtt1-tor-75",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.6.12.26",
+"hostname": "usmtt1-tor-76",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.6.12.26",
+"hostname": "usmtt1-tor-76",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.6.13.26",
+"hostname": "usmtt1-tor-77",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.6.13.26",
+"hostname": "usmtt1-tor-77",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.6.14.26",
+"hostname": "usmtt1-tor-78",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.6.14.26",
+"hostname": "usmtt1-tor-78",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.6.15.26",
+"hostname": "usmtt1-tor-79",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.6.15.26",
+"hostname": "usmtt1-tor-79",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.6.16.26",
+"hostname": "usmtt1-tor-80",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.6.16.26",
+"hostname": "usmtt1-tor-80",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.6.17.26",
+"hostname": "usmtt1-tor-81",
+"latency_us": 0,
+"loss": 5.0,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.6.17.26",
+"hostname": "usmtt1-tor-81",
+"latency_us": 230.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.6.18.26",
+"hostname": "usstv1-tor-82",
+"latency_us": 206.1,
+"loss": 0.03,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.6.18.26",
+"hostname": "usstv1-tor-82",
+"latency_us": 103.1,
+"loss": 0.03,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.6.19.26",
+"hostname": "usmtt1-tor-83",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.6.19.26",
+"hostname": "usmtt1-tor-83",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.6.20.26",
+"hostname": "usmtt1-tor-84",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.6.20.26",
+"hostname": "usmtt1-tor-84",
+"latency_us": 18.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.7.1.26",
+"hostname": "usmtt1-tor-67",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.7.1.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},{
+"location": "USMTT1.1100.7.2.26",
+"hostname": "usmtt1-tor-67",
+"latency_us": 11200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.7.3.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.7.3.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.7.4.26",
+"hostname": "usmtt1-tor-69",
+"latency_us": 0,
+"loss": 0.04,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.7.4.26",
+"hostname": "usmtt1-tor-69",
+"latency_us": 11123.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.7.5.26",
+"hostname": "usstv1-tor-70",
+"latency_us": 206.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.7.5.26",
+"hostname": "usstv1-tor-70",
+"latency_us": 103.1,
+"loss": 0.1,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.7.6.26",
+"hostname": "usmtt1-tor-71",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.7.6.26",
+"hostname": "usmtt1-tor-71",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.7.7.26",
+"hostname": "usmtt1-tor-72",
+"latency_us": 111123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.7.7.26",
+"hostname": "usmtt1-tor-72",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.7.9.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 1110.1,
+"loss": 10.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.7.9.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.7.8.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.7.8.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.7.10.26",
+"hostname": "usmtt1-tor-74",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.7.10.26",
+"hostname": "usmtt1-tor-74",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.7.11.26",
+"hostname": "usmtt1-tor-75",
+"latency_us": 11110.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.7.11.26",
+"hostname": "usmtt1-tor-75",
+"latency_us": 11200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.7.12.26",
+"hostname": "usmtt1-tor-76",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.7.12.26",
+"hostname": "usmtt1-tor-76",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.7.13.26",
+"hostname": "usmtt1-tor-77",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.7.13.26",
+"hostname": "usmtt1-tor-77",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.7.14.26",
+"hostname": "usmtt1-tor-78",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.7.14.26",
+"hostname": "usmtt1-tor-78",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.7.15.26",
+"hostname": "usmtt1-tor-79",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.7.15.26",
+"hostname": "usmtt1-tor-79",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.7.16.26",
+"hostname": "usmtt1-tor-80",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.7.16.26",
+"hostname": "usmtt1-tor-80",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.7.17.26",
+"hostname": "usmtt1-tor-81",
+"latency_us": 0,
+"loss": 5.0,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.7.17.26",
+"hostname": "usmtt1-tor-81",
+"latency_us": 230.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.7.18.26",
+"hostname": "usstv1-tor-82",
+"latency_us": 206.1,
+"loss": 0.03,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.7.18.26",
+"hostname": "usstv1-tor-82",
+"latency_us": 103.1,
+"loss": 0.03,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.7.19.26",
+"hostname": "usmtt1-tor-83",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.7.19.26",
+"hostname": "usmtt1-tor-83",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.7.20.26",
+"hostname": "usmtt1-tor-84",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.7.20.26",
+"hostname": "usmtt1-tor-84",
+"latency_us": 18.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.8.1.26",
+"hostname": "usmtt1-tor-67",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.8.1.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},{
+"location": "USMTT1.1100.8.2.26",
+"hostname": "usmtt1-tor-67",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.8.3.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.8.3.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.8.4.26",
+"hostname": "usmtt1-tor-69",
+"latency_us": 0,
+"loss": 0.04,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.8.4.26",
+"hostname": "usmtt1-tor-69",
+"latency_us": 23.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.8.5.26",
+"hostname": "usstv1-tor-70",
+"latency_us": 206.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.4.5.26",
+"hostname": "usstv1-tor-70",
+"latency_us": 103.1,
+"loss": 0.1,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.8.6.26",
+"hostname": "usmtt1-tor-71",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.8.6.26",
+"hostname": "usmtt1-tor-71",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.8.7.26",
+"hostname": "usmtt1-tor-72",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.8.7.26",
+"hostname": "usmtt1-tor-72",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.8.9.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 1110.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.8.9.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.8.8.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.8.8.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.8.10.26",
+"hostname": "usmtt1-tor-74",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.8.10.26",
+"hostname": "usmtt1-tor-74",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.8.11.26",
+"hostname": "usmtt1-tor-75",
+"latency_us": 11110.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.8.11.26",
+"hostname": "usmtt1-tor-75",
+"latency_us": 11200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.8.12.26",
+"hostname": "usmtt1-tor-76",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.8.12.26",
+"hostname": "usmtt1-tor-76",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.8.13.26",
+"hostname": "usmtt1-tor-77",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.8.13.26",
+"hostname": "usmtt1-tor-77",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.8.14.26",
+"hostname": "usmtt1-tor-78",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.8.14.26",
+"hostname": "usmtt1-tor-78",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.8.15.26",
+"hostname": "usmtt1-tor-79",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.8.15.26",
+"hostname": "usmtt1-tor-79",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.8.16.26",
+"hostname": "usmtt1-tor-80",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.8.16.26",
+"hostname": "usmtt1-tor-80",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.8.17.26",
+"hostname": "usmtt1-tor-81",
+"latency_us": 0,
+"loss": 5.0,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.8.17.26",
+"hostname": "usmtt1-tor-81",
+"latency_us": 230.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.8.18.26",
+"hostname": "usstv1-tor-82",
+"latency_us": 206.1,
+"loss": 0.03,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.8.18.26",
+"hostname": "usstv1-tor-82",
+"latency_us": 103.1,
+"loss": 0.03,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.8.19.26",
+"hostname": "usmtt1-tor-83",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.8.19.26",
+"hostname": "usmtt1-tor-83",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.8.20.26",
+"hostname": "usmtt1-tor-84",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.8.20.26",
+"hostname": "usmtt1-tor-84",
+"latency_us": 18.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.9.1.26",
+"hostname": "usmtt1-tor-67",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.9.1.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},{
+"location": "USMTT1.1100.9.2.26",
+"hostname": "usmtt1-tor-67",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.9.3.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.9.3.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.9.4.26",
+"hostname": "usmtt1-tor-69",
+"latency_us": 0,
+"loss": 0.04,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.9.4.26",
+"hostname": "usmtt1-tor-69",
+"latency_us": 23.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.9.5.26",
+"hostname": "usstv1-tor-70",
+"latency_us": 206.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.9.5.26",
+"hostname": "usstv1-tor-70",
+"latency_us": 103.1,
+"loss": 0.1,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.9.6.26",
+"hostname": "usmtt1-tor-71",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.9.6.26",
+"hostname": "usmtt1-tor-71",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.9.7.26",
+"hostname": "usmtt1-tor-72",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.9.7.26",
+"hostname": "usmtt1-tor-72",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.9.9.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 1110.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.9.9.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.9.8.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.9.8.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.9.10.26",
+"hostname": "usmtt1-tor-74",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.9.10.26",
+"hostname": "usmtt1-tor-74",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.9.11.26",
+"hostname": "usmtt1-tor-75",
+"latency_us": 1110.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.9.11.26",
+"hostname": "usmtt1-tor-75",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.9.12.26",
+"hostname": "usmtt1-tor-76",
+"latency_us": 22223.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.9.12.26",
+"hostname": "usmtt1-tor-76",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.9.13.26",
+"hostname": "usmtt1-tor-77",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.9.13.26",
+"hostname": "usmtt1-tor-77",
+"latency_us": 45200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.9.14.26",
+"hostname": "usmtt1-tor-78",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.9.14.26",
+"hostname": "usmtt1-tor-78",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.9.15.26",
+"hostname": "usmtt1-tor-79",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.9.15.26",
+"hostname": "usmtt1-tor-79",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.9.16.26",
+"hostname": "usmtt1-tor-80",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.9.16.26",
+"hostname": "usmtt1-tor-80",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.9.17.26",
+"hostname": "usmtt1-tor-81",
+"latency_us": 0,
+"loss": 5.0,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.9.17.26",
+"hostname": "usmtt1-tor-81",
+"latency_us": 230.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.9.18.26",
+"hostname": "usstv1-tor-82",
+"latency_us": 206.1,
+"loss": 0.03,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.9.18.26",
+"hostname": "usstv1-tor-82",
+"latency_us": 103.1,
+"loss": 0.03,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.9.19.26",
+"hostname": "usmtt1-tor-83",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.9.19.26",
+"hostname": "usmtt1-tor-83",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.9.20.26",
+"hostname": "usmtt1-tor-84",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.9.20.26",
+"hostname": "usmtt1-tor-84",
+"latency_us": 18.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.10.1.26",
+"hostname": "usmtt1-tor-67",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.10.1.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},{
+"location": "USMTT1.1100.10.2.26",
+"hostname": "usmtt1-tor-67",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.10.3.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.10.3.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.10.4.26",
+"hostname": "usmtt1-tor-69",
+"latency_us": 0,
+"loss": 0.04,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.10.4.26",
+"hostname": "usmtt1-tor-69",
+"latency_us": 23.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.10.5.26",
+"hostname": "usstv1-tor-70",
+"latency_us": 206.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.10.5.26",
+"hostname": "usstv1-tor-70",
+"latency_us": 103.1,
+"loss": 0.1,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.10.6.26",
+"hostname": "usmtt1-tor-71",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.10.6.26",
+"hostname": "usmtt1-tor-71",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.10.7.26",
+"hostname": "usmtt1-tor-72",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.10.7.26",
+"hostname": "usmtt1-tor-72",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.10.9.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 1110.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.10.9.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.10.8.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.10.8.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.10.10.26",
+"hostname": "usmtt1-tor-74",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.10.10.26",
+"hostname": "usmtt1-tor-74",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.10.11.26",
+"hostname": "usmtt1-tor-75",
+"latency_us": 1110.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.10.11.26",
+"hostname": "usmtt1-tor-75",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.10.12.26",
+"hostname": "usmtt1-tor-76",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.10.12.26",
+"hostname": "usmtt1-tor-76",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.10.13.26",
+"hostname": "usmtt1-tor-77",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.10.13.26",
+"hostname": "usmtt1-tor-77",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.10.14.26",
+"hostname": "usmtt1-tor-78",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.10.14.26",
+"hostname": "usmtt1-tor-78",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.10.15.26",
+"hostname": "usmtt1-tor-79",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.10.15.26",
+"hostname": "usmtt1-tor-79",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.10.16.26",
+"hostname": "usmtt1-tor-80",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.10.16.26",
+"hostname": "usmtt1-tor-80",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.10.17.26",
+"hostname": "usmtt1-tor-81",
+"latency_us": 0,
+"loss": 5.0,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.10.17.26",
+"hostname": "usmtt1-tor-81",
+"latency_us": 230.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.10.18.26",
+"hostname": "usstv1-tor-82",
+"latency_us": 206.1,
+"loss": 0.03,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.10.18.26",
+"hostname": "usstv1-tor-82",
+"latency_us": 103.1,
+"loss": 0.03,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.10.19.26",
+"hostname": "usmtt1-tor-83",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.10.19.26",
+"hostname": "usmtt1-tor-83",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.10.20.26",
+"hostname": "usmtt1-tor-84",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.10.20.26",
+"hostname": "usmtt1-tor-84",
+"latency_us": 18.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.11.1.26",
+"hostname": "usmtt1-tor-67",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.11.1.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},{
+"location": "USMTT1.1100.11.2.26",
+"hostname": "usmtt1-tor-67",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.11.3.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.11.3.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.11.4.26",
+"hostname": "usmtt1-tor-69",
+"latency_us": 0,
+"loss": 0.04,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.11.4.26",
+"hostname": "usmtt1-tor-69",
+"latency_us": 23.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.11.5.26",
+"hostname": "usstv1-tor-70",
+"latency_us": 206.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.11.5.26",
+"hostname": "usstv1-tor-70",
+"latency_us": 103.1,
+"loss": 0.1,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.11.6.26",
+"hostname": "usmtt1-tor-71",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.11.6.26",
+"hostname": "usmtt1-tor-71",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.11.7.26",
+"hostname": "usmtt1-tor-72",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.11.7.26",
+"hostname": "usmtt1-tor-72",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.11.9.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 1110.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.11.9.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.11.8.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.11.8.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.11.10.26",
+"hostname": "usmtt1-tor-74",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.11.10.26",
+"hostname": "usmtt1-tor-74",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.11.11.26",
+"hostname": "usmtt1-tor-75",
+"latency_us": 1110.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.11.11.26",
+"hostname": "usmtt1-tor-75",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.11.12.26",
+"hostname": "usmtt1-tor-76",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.11.12.26",
+"hostname": "usmtt1-tor-76",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.11.13.26",
+"hostname": "usmtt1-tor-77",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.11.13.26",
+"hostname": "usmtt1-tor-77",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.11.14.26",
+"hostname": "usmtt1-tor-78",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.11.14.26",
+"hostname": "usmtt1-tor-78",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.11.15.26",
+"hostname": "usmtt1-tor-79",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.11.15.26",
+"hostname": "usmtt1-tor-79",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.11.16.26",
+"hostname": "usmtt1-tor-80",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.11.16.26",
+"hostname": "usmtt1-tor-80",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.11.17.26",
+"hostname": "usmtt1-tor-81",
+"latency_us": 0,
+"loss": 5.0,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.11.17.26",
+"hostname": "usmtt1-tor-81",
+"latency_us": 230.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.11.18.26",
+"hostname": "usstv1-tor-82",
+"latency_us": 206.1,
+"loss": 0.03,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.11.18.26",
+"hostname": "usstv1-tor-82",
+"latency_us": 103.1,
+"loss": 0.03,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.11.19.26",
+"hostname": "usmtt1-tor-83",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.11.19.26",
+"hostname": "usmtt1-tor-83",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.11.20.26",
+"hostname": "usmtt1-tor-84",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.11.20.26",
+"hostname": "usmtt1-tor-84",
+"latency_us": 18.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.12.1.26",
+"hostname": "usmtt1-tor-67",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.12.1.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},{
+"location": "USMTT1.1100.12.2.26",
+"hostname": "usmtt1-tor-67",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.12.3.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.12.3.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.12.4.26",
+"hostname": "usmtt1-tor-69",
+"latency_us": 0,
+"loss": 0.04,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.12.4.26",
+"hostname": "usmtt1-tor-69",
+"latency_us": 23.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.12.5.26",
+"hostname": "usstv1-tor-70",
+"latency_us": 206.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.12.5.26",
+"hostname": "usstv1-tor-70",
+"latency_us": 103.1,
+"loss": 0.1,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.12.6.26",
+"hostname": "usmtt1-tor-71",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.12.6.26",
+"hostname": "usmtt1-tor-71",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.12.7.26",
+"hostname": "usmtt1-tor-72",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.12.7.26",
+"hostname": "usmtt1-tor-72",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.12.9.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 1110.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.12.9.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.12.8.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.12.8.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.12.10.26",
+"hostname": "usmtt1-tor-74",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.12.10.26",
+"hostname": "usmtt1-tor-74",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.12.11.26",
+"hostname": "usmtt1-tor-75",
+"latency_us": 1110.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.12.11.26",
+"hostname": "usmtt1-tor-75",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.12.12.26",
+"hostname": "usmtt1-tor-76",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.12.12.26",
+"hostname": "usmtt1-tor-76",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.12.13.26",
+"hostname": "usmtt1-tor-77",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.12.13.26",
+"hostname": "usmtt1-tor-77",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.12.14.26",
+"hostname": "usmtt1-tor-78",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.12.14.26",
+"hostname": "usmtt1-tor-78",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.12.15.26",
+"hostname": "usmtt1-tor-79",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.12.15.26",
+"hostname": "usmtt1-tor-79",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.12.16.26",
+"hostname": "usmtt1-tor-80",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.12.16.26",
+"hostname": "usmtt1-tor-80",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.12.17.26",
+"hostname": "usmtt1-tor-81",
+"latency_us": 0,
+"loss": 5.0,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.12.17.26",
+"hostname": "usmtt1-tor-81",
+"latency_us": 230.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.12.18.26",
+"hostname": "usstv1-tor-82",
+"latency_us": 206.1,
+"loss": 0.03,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.12.18.26",
+"hostname": "usstv1-tor-82",
+"latency_us": 103.1,
+"loss": 0.03,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.12.19.26",
+"hostname": "usmtt1-tor-83",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.12.19.26",
+"hostname": "usmtt1-tor-83",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.12.20.26",
+"hostname": "usmtt1-tor-84",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.12.20.26",
+"hostname": "usmtt1-tor-84",
+"latency_us": 18.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.13.1.26",
+"hostname": "usmtt1-tor-67",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.13.1.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},{
+"location": "USMTT1.1100.13.2.26",
+"hostname": "usmtt1-tor-67",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.13.3.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.13.3.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.13.4.26",
+"hostname": "usmtt1-tor-69",
+"latency_us": 0,
+"loss": 0.04,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.13.4.26",
+"hostname": "usmtt1-tor-69",
+"latency_us": 23.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.13.5.26",
+"hostname": "usstv1-tor-70",
+"latency_us": 206.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.13.5.26",
+"hostname": "usstv1-tor-70",
+"latency_us": 103.1,
+"loss": 0.1,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.13.6.26",
+"hostname": "usmtt1-tor-71",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.13.6.26",
+"hostname": "usmtt1-tor-71",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.13.7.26",
+"hostname": "usmtt1-tor-72",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.13.7.26",
+"hostname": "usmtt1-tor-72",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.13.9.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 1110.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.13.9.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.13.8.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.13.8.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.13.10.26",
+"hostname": "usmtt1-tor-74",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.13.10.26",
+"hostname": "usmtt1-tor-74",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.13.11.26",
+"hostname": "usmtt1-tor-75",
+"latency_us": 1110.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.13.11.26",
+"hostname": "usmtt1-tor-75",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.13.12.26",
+"hostname": "usmtt1-tor-76",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.13.12.26",
+"hostname": "usmtt1-tor-76",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.13.13.26",
+"hostname": "usmtt1-tor-77",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.13.13.26",
+"hostname": "usmtt1-tor-77",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.13.14.26",
+"hostname": "usmtt1-tor-78",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.13.14.26",
+"hostname": "usmtt1-tor-78",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.13.15.26",
+"hostname": "usmtt1-tor-79",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.13.15.26",
+"hostname": "usmtt1-tor-79",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.13.16.26",
+"hostname": "usmtt1-tor-80",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.13.16.26",
+"hostname": "usmtt1-tor-80",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.13.17.26",
+"hostname": "usmtt1-tor-81",
+"latency_us": 0,
+"loss": 5.0,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.13.17.26",
+"hostname": "usmtt1-tor-81",
+"latency_us": 230.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.13.18.26",
+"hostname": "usstv1-tor-82",
+"latency_us": 206.1,
+"loss": 0.03,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.13.18.26",
+"hostname": "usstv1-tor-82",
+"latency_us": 103.1,
+"loss": 0.03,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.13.19.26",
+"hostname": "usmtt1-tor-83",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.13.19.26",
+"hostname": "usmtt1-tor-83",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.13.20.26",
+"hostname": "usmtt1-tor-84",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.13.20.26",
+"hostname": "usmtt1-tor-84",
+"latency_us": 18.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.14.1.26",
+"hostname": "usmtt1-tor-67",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.14.1.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},{
+"location": "USMTT1.1100.14.2.26",
+"hostname": "usmtt1-tor-67",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.14.3.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.14.3.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.14.4.26",
+"hostname": "usmtt1-tor-69",
+"latency_us": 0,
+"loss": 0.04,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.14.4.26",
+"hostname": "usmtt1-tor-69",
+"latency_us": 23.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.14.5.26",
+"hostname": "usstv1-tor-70",
+"latency_us": 206.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.14.5.26",
+"hostname": "usstv1-tor-70",
+"latency_us": 103.1,
+"loss": 0.1,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.14.6.26",
+"hostname": "usmtt1-tor-71",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.14.6.26",
+"hostname": "usmtt1-tor-71",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.14.7.26",
+"hostname": "usmtt1-tor-72",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.14.7.26",
+"hostname": "usmtt1-tor-72",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.14.9.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 1110.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.14.9.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.14.8.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.14.8.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.14.10.26",
+"hostname": "usmtt1-tor-74",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.14.10.26",
+"hostname": "usmtt1-tor-74",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.14.11.26",
+"hostname": "usmtt1-tor-75",
+"latency_us": 1110.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.14.11.26",
+"hostname": "usmtt1-tor-75",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.14.12.26",
+"hostname": "usmtt1-tor-76",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.14.12.26",
+"hostname": "usmtt1-tor-76",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.14.13.26",
+"hostname": "usmtt1-tor-77",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.14.13.26",
+"hostname": "usmtt1-tor-77",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.14.14.26",
+"hostname": "usmtt1-tor-78",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.14.14.26",
+"hostname": "usmtt1-tor-78",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.14.15.26",
+"hostname": "usmtt1-tor-79",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.14.15.26",
+"hostname": "usmtt1-tor-79",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.14.16.26",
+"hostname": "usmtt1-tor-80",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.14.16.26",
+"hostname": "usmtt1-tor-80",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.14.17.26",
+"hostname": "usmtt1-tor-81",
+"latency_us": 0,
+"loss": 5.0,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.14.17.26",
+"hostname": "usmtt1-tor-81",
+"latency_us": 230.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.14.18.26",
+"hostname": "usstv1-tor-82",
+"latency_us": 206.1,
+"loss": 0.03,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.14.18.26",
+"hostname": "usstv1-tor-82",
+"latency_us": 103.1,
+"loss": 0.03,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.10419.26",
+"hostname": "usmtt1-tor-83",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.14.19.26",
+"hostname": "usmtt1-tor-83",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.14.20.26",
+"hostname": "usmtt1-tor-84",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.10.20.26",
+"hostname": "usmtt1-tor-84",
+"latency_us": 18.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.15.1.26",
+"hostname": "usmtt1-tor-67",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.15.1.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},{
+"location": "USMTT1.1100.15.2.26",
+"hostname": "usmtt1-tor-67",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.15.3.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.15.3.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.15.4.26",
+"hostname": "usmtt1-tor-69",
+"latency_us": 0,
+"loss": 0.04,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.15.4.26",
+"hostname": "usmtt1-tor-69",
+"latency_us": 23.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.15.5.26",
+"hostname": "usstv1-tor-70",
+"latency_us": 206.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.15.5.26",
+"hostname": "usstv1-tor-70",
+"latency_us": 103.1,
+"loss": 0.1,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.15.6.26",
+"hostname": "usmtt1-tor-71",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.15.6.26",
+"hostname": "usmtt1-tor-71",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.15.7.26",
+"hostname": "usmtt1-tor-72",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.15.7.26",
+"hostname": "usmtt1-tor-72",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.15.9.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 1110.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.15.9.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.15.8.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.15.8.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.15.10.26",
+"hostname": "usmtt1-tor-74",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.15.10.26",
+"hostname": "usmtt1-tor-74",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.15.11.26",
+"hostname": "usmtt1-tor-75",
+"latency_us": 1110.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.15.11.26",
+"hostname": "usmtt1-tor-75",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.15.12.26",
+"hostname": "usmtt1-tor-76",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.15.12.26",
+"hostname": "usmtt1-tor-76",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.15.13.26",
+"hostname": "usmtt1-tor-77",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.15.13.26",
+"hostname": "usmtt1-tor-77",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.15.14.26",
+"hostname": "usmtt1-tor-78",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.15.14.26",
+"hostname": "usmtt1-tor-78",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.15.15.26",
+"hostname": "usmtt1-tor-79",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.15.15.26",
+"hostname": "usmtt1-tor-79",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.15.16.26",
+"hostname": "usmtt1-tor-80",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.15.16.26",
+"hostname": "usmtt1-tor-80",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.15.17.26",
+"hostname": "usmtt1-tor-81",
+"latency_us": 0,
+"loss": 5.0,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.15.17.26",
+"hostname": "usmtt1-tor-81",
+"latency_us": 230.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.15.18.26",
+"hostname": "usstv1-tor-82",
+"latency_us": 206.1,
+"loss": 0.03,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.15.18.26",
+"hostname": "usstv1-tor-82",
+"latency_us": 103.1,
+"loss": 0.03,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.15.19.26",
+"hostname": "usmtt1-tor-83",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.15.19.26",
+"hostname": "usmtt1-tor-83",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.15.20.26",
+"hostname": "usmtt1-tor-84",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.15.20.26",
+"hostname": "usmtt1-tor-84",
+"latency_us": 18.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+  "location": "USMTT1.1100.16.1.26",
+  "hostname": "usmtt1-tor-67",
+  "latency_us": 11200.1,
+  "loss": 0.2,
+  "type": "horizontal"
+},
+{
+  "location": "USMTT1.1100.16.1.26",
+  "hostname": "usmtt1-tor-68",
+  "latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},{
+"location": "USMTT1.1100.16.2.26",
+"hostname": "usmtt1-tor-67",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.16.3.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 11123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.16.3.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.16.4.26",
+"hostname": "usmtt1-tor-69",
+"latency_us": 0,
+"loss": 0.04,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.16.4.26",
+"hostname": "usmtt1-tor-69",
+"latency_us": 23.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.16.5.26",
+"hostname": "usstv1-tor-70",
+"latency_us": 206.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.16.5.26",
+"hostname": "usstv1-tor-70",
+"latency_us": 103.1,
+"loss": 0.1,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.16.6.26",
+"hostname": "usmtt1-tor-71",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.16.6.26",
+"hostname": "usmtt1-tor-71",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.16.7.26",
+"hostname": "usmtt1-tor-72",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.16.7.26",
+"hostname": "usmtt1-tor-72",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.16.9.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 1110.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.16.9.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.16.8.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.16.8.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.16.10.26",
+"hostname": "usmtt1-tor-74",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.16.10.26",
+"hostname": "usmtt1-tor-74",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.16.11.26",
+"hostname": "usmtt1-tor-75",
+"latency_us": 1110.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.16.11.26",
+"hostname": "usmtt1-tor-75",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.16.12.26",
+"hostname": "usmtt1-tor-76",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.16.12.26",
+"hostname": "usmtt1-tor-76",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.16.13.26",
+"hostname": "usmtt1-tor-77",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.16.13.26",
+"hostname": "usmtt1-tor-77",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.16.14.26",
+"hostname": "usmtt1-tor-78",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.16.14.26",
+"hostname": "usmtt1-tor-78",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.16.15.26",
+"hostname": "usmtt1-tor-79",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.16.15.26",
+"hostname": "usmtt1-tor-79",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.16.16.26",
+"hostname": "usmtt1-tor-80",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.16.16.26",
+"hostname": "usmtt1-tor-80",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.16.17.26",
+"hostname": "usmtt1-tor-81",
+"latency_us": 0,
+"loss": 5.0,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.16.17.26",
+"hostname": "usmtt1-tor-81",
+"latency_us": 230.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.16.18.26",
+"hostname": "usstv1-tor-82",
+"latency_us": 206.1,
+"loss": 0.03,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.16.18.26",
+"hostname": "usstv1-tor-82",
+"latency_us": 103.1,
+"loss": 0.03,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.16.19.26",
+"hostname": "usmtt1-tor-83",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.16.19.26",
+"hostname": "usmtt1-tor-83",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.16.20.26",
+"hostname": "usmtt1-tor-84",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.16.20.26",
+"hostname": "usmtt1-tor-84",
+"latency_us": 18.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.17.1.26",
+"hostname": "usmtt1-tor-67",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.17.1.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},{
+"location": "USMTT1.1100.17.2.26",
+"hostname": "usmtt1-tor-67",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.17.3.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.17.3.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.17.4.26",
+"hostname": "usmtt1-tor-69",
+"latency_us": 0,
+"loss": 0.04,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.17.4.26",
+"hostname": "usmtt1-tor-69",
+"latency_us": 23.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.17.5.26",
+"hostname": "usstv1-tor-70",
+"latency_us": 206.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.17.5.26",
+"hostname": "usstv1-tor-70",
+"latency_us": 103.1,
+"loss": 0.1,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.17.6.26",
+"hostname": "usmtt1-tor-71",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.17.6.26",
+"hostname": "usmtt1-tor-71",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.17.7.26",
+"hostname": "usmtt1-tor-72",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.17.7.26",
+"hostname": "usmtt1-tor-72",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.17.9.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 1110.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.17.9.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.17.8.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.17.8.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.17.10.26",
+"hostname": "usmtt1-tor-74",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.17.10.26",
+"hostname": "usmtt1-tor-74",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.17.11.26",
+"hostname": "usmtt1-tor-75",
+"latency_us": 1110.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.17.11.26",
+"hostname": "usmtt1-tor-75",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.17.12.26",
+"hostname": "usmtt1-tor-76",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.17.12.26",
+"hostname": "usmtt1-tor-76",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.17.13.26",
+"hostname": "usmtt1-tor-77",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.17.13.26",
+"hostname": "usmtt1-tor-77",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.17.14.26",
+"hostname": "usmtt1-tor-78",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.17.14.26",
+"hostname": "usmtt1-tor-78",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.17.15.26",
+"hostname": "usmtt1-tor-79",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.17.15.26",
+"hostname": "usmtt1-tor-79",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.17.16.26",
+"hostname": "usmtt1-tor-80",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.17.16.26",
+"hostname": "usmtt1-tor-80",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.17.17.26",
+"hostname": "usmtt1-tor-81",
+"latency_us": 0,
+"loss": 5.0,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.17.17.26",
+"hostname": "usmtt1-tor-81",
+"latency_us": 230.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.17.18.26",
+"hostname": "usstv1-tor-82",
+"latency_us": 206.1,
+"loss": 0.03,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.17.18.26",
+"hostname": "usstv1-tor-82",
+"latency_us": 103.1,
+"loss": 0.03,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.17.19.26",
+"hostname": "usmtt1-tor-83",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.17.19.26",
+"hostname": "usmtt1-tor-83",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.17.20.26",
+"hostname": "usmtt1-tor-84",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.17.20.26",
+"hostname": "usmtt1-tor-84",
+"latency_us": 18.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.18.1.26",
+"hostname": "usmtt1-tor-67",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.18.1.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},{
+"location": "USMTT1.1100.18.2.26",
+"hostname": "usmtt1-tor-67",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.18.3.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.18.3.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.18.4.26",
+"hostname": "usmtt1-tor-69",
+"latency_us": 0,
+"loss": 0.04,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.18.4.26",
+"hostname": "usmtt1-tor-69",
+"latency_us": 23.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.18.5.26",
+"hostname": "usstv1-tor-70",
+"latency_us": 206.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.18.5.26",
+"hostname": "usstv1-tor-70",
+"latency_us": 103.1,
+"loss": 0.1,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.18.6.26",
+"hostname": "usmtt1-tor-71",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.18.6.26",
+"hostname": "usmtt1-tor-71",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.18.7.26",
+"hostname": "usmtt1-tor-72",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.18.7.26",
+"hostname": "usmtt1-tor-72",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.18.9.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 1110.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.18.9.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.18.8.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.18.8.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.18.10.26",
+"hostname": "usmtt1-tor-74",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.18.10.26",
+"hostname": "usmtt1-tor-74",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.18.11.26",
+"hostname": "usmtt1-tor-75",
+"latency_us": 1110.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.18.11.26",
+"hostname": "usmtt1-tor-75",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.18.12.26",
+"hostname": "usmtt1-tor-76",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.18.12.26",
+"hostname": "usmtt1-tor-76",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.18.13.26",
+"hostname": "usmtt1-tor-77",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.18.13.26",
+"hostname": "usmtt1-tor-77",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.18.14.26",
+"hostname": "usmtt1-tor-78",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.18.14.26",
+"hostname": "usmtt1-tor-78",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.18.15.26",
+"hostname": "usmtt1-tor-79",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.18.15.26",
+"hostname": "usmtt1-tor-79",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.18.16.26",
+"hostname": "usmtt1-tor-80",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.18.16.26",
+"hostname": "usmtt1-tor-80",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.18.17.26",
+"hostname": "usmtt1-tor-81",
+"latency_us": 0,
+"loss": 5.0,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.18.17.26",
+"hostname": "usmtt1-tor-81",
+"latency_us": 230.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.18.18.26",
+"hostname": "usstv1-tor-82",
+"latency_us": 206.1,
+"loss": 0.03,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.18.18.26",
+"hostname": "usstv1-tor-82",
+"latency_us": 103.1,
+"loss": 0.03,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.18.19.26",
+"hostname": "usmtt1-tor-83",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.18.19.26",
+"hostname": "usmtt1-tor-83",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.18.20.26",
+"hostname": "usmtt1-tor-84",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.18.20.26",
+"hostname": "usmtt1-tor-84",
+"latency_us": 18.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.19.1.26",
+"hostname": "usmtt1-tor-67",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.19.1.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},{
+"location": "USMTT1.1100.19.2.26",
+"hostname": "usmtt1-tor-67",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.19.3.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.19.3.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.19.4.26",
+"hostname": "usmtt1-tor-69",
+"latency_us": 0,
+"loss": 0.04,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.19.4.26",
+"hostname": "usmtt1-tor-69",
+"latency_us": 23.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.19.5.26",
+"hostname": "usstv1-tor-70",
+"latency_us": 206.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.19.5.26",
+"hostname": "usstv1-tor-70",
+"latency_us": 103.1,
+"loss": 0.1,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.19.6.26",
+"hostname": "usmtt1-tor-71",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.19.6.26",
+"hostname": "usmtt1-tor-71",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.19.7.26",
+"hostname": "usmtt1-tor-72",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.19.7.26",
+"hostname": "usmtt1-tor-72",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.19.9.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 1110.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.19.9.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.19.8.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.19.8.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.19.10.26",
+"hostname": "usmtt1-tor-74",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.19.10.26",
+"hostname": "usmtt1-tor-74",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.19.11.26",
+"hostname": "usmtt1-tor-75",
+"latency_us": 1110.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.19.11.26",
+"hostname": "usmtt1-tor-75",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.19.12.26",
+"hostname": "usmtt1-tor-76",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.19.12.26",
+"hostname": "usmtt1-tor-76",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.19.13.26",
+"hostname": "usmtt1-tor-77",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.19.13.26",
+"hostname": "usmtt1-tor-77",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.19.14.26",
+"hostname": "usmtt1-tor-78",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.19.14.26",
+"hostname": "usmtt1-tor-78",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.19.15.26",
+"hostname": "usmtt1-tor-79",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.19.15.26",
+"hostname": "usmtt1-tor-79",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.19.16.26",
+"hostname": "usmtt1-tor-80",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.19.16.26",
+"hostname": "usmtt1-tor-80",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.19.17.26",
+"hostname": "usmtt1-tor-81",
+"latency_us": 0,
+"loss": 5.0,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.19.17.26",
+"hostname": "usmtt1-tor-81",
+"latency_us": 230.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.19.18.26",
+"hostname": "usstv1-tor-82",
+"latency_us": 206.1,
+"loss": 0.03,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.19.18.26",
+"hostname": "usstv1-tor-82",
+"latency_us": 103.1,
+"loss": 0.03,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.19.19.26",
+"hostname": "usmtt1-tor-83",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.19.19.26",
+"hostname": "usmtt1-tor-83",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.19.20.26",
+"hostname": "usmtt1-tor-84",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.19.20.26",
+"hostname": "usmtt1-tor-84",
+"latency_us": 18.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.20.1.26",
+"hostname": "usmtt1-tor-67",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.20.1.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},{
+"location": "USMTT1.1100.20.2.26",
+"hostname": "usmtt1-tor-67",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.20.3.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.20.3.26",
+"hostname": "usmtt1-tor-68",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.20.4.26",
+"hostname": "usmtt1-tor-69",
+"latency_us": 0,
+"loss": 0.04,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.20.4.26",
+"hostname": "usmtt1-tor-69",
+"latency_us": 23.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.20.5.26",
+"hostname": "usstv1-tor-70",
+"latency_us": 206.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.20.5.26",
+"hostname": "usstv1-tor-70",
+"latency_us": 103.1,
+"loss": 0.1,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.20.6.26",
+"hostname": "usmtt1-tor-71",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.20.6.26",
+"hostname": "usmtt1-tor-71",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.20.7.26",
+"hostname": "usmtt1-tor-72",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.20.7.26",
+"hostname": "usmtt1-tor-72",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.20.9.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 1110.1,
+"loss": 10.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.20.9.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.20.8.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.20.8.26",
+"hostname": "usmtt1-tor-73",
+"latency_us": 200.1,
+"loss": 110.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.20.10.26",
+"hostname": "usmtt1-tor-74",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.20.10.26",
+"hostname": "usmtt1-tor-74",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.20.11.26",
+"hostname": "usmtt1-tor-75",
+"latency_us": 1110.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.20.11.26",
+"hostname": "usmtt1-tor-75",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.20.12.26",
+"hostname": "usmtt1-tor-76",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.20.12.26",
+"hostname": "usmtt1-tor-76",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.20.13.26",
+"hostname": "usmtt1-tor-77",
+"latency_us": 0.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.20.13.26",
+"hostname": "usmtt1-tor-77",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.20.14.26",
+"hostname": "usmtt1-tor-78",
+"latency_us": 23.1,
+"loss": 5.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.20.14.26",
+"hostname": "usmtt1-tor-78",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.20.15.26",
+"hostname": "usmtt1-tor-79",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.20.15.26",
+"hostname": "usmtt1-tor-79",
+"latency_us": 1200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.20.16.26",
+"hostname": "usmtt1-tor-80",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.20.16.26",
+"hostname": "usmtt1-tor-80",
+"latency_us": 118.1,
+"loss": 0.22,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.20.17.26",
+"hostname": "usmtt1-tor-81",
+"latency_us": 0,
+"loss": 5.0,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.20.17.26",
+"hostname": "usmtt1-tor-81",
+"latency_us": 230.1,
+"loss": 0.0,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.20.18.26",
+"hostname": "usstv1-tor-82",
+"latency_us": 206.1,
+"loss": 0.03,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.20.18.26",
+"hostname": "usstv1-tor-82",
+"latency_us": 103.1,
+"loss": 0.03,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.20.19.26",
+"hostname": "usmtt1-tor-83",
+"latency_us": 120.1,
+"loss": 0.01,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.20.19.26",
+"hostname": "usmtt1-tor-83",
+"latency_us": 200.1,
+"loss": 0.2,
+"type": "horizontal"
+},
+{
+"location": "USMTT1.1100.20.20.26",
+"hostname": "usmtt1-tor-84",
+"latency_us": 123.1,
+"loss": 0.22,
+"type": "vertical"
+},
+{
+"location": "USMTT1.1100.20.20.26",
+"hostname": "usmtt1-tor-84",
+"latency_us": 18.1,
+"loss": 0.22,
+"type": "horizontal"
+} 
+]

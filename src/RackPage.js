@@ -29,7 +29,6 @@ export default function RackPage () {
 
   const racks = []
 
-//1.
   data.forEach(report => {
     const {
       hostname,
@@ -100,10 +99,8 @@ export default function RackPage () {
     }
   })
 
-  //Couldn't find any easie way to place a rack exactly where it belogs. This seems to be working fine!
   const found = racks
     .find(rack => {
-      console.log('rack test:', rack)
       const dataMatch = rack.datacenter === datacenter
       const roomMatch = rack.room === roomNumber
       const rowMatch = rack.row === rowNumber

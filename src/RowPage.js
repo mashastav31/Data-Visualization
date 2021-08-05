@@ -2,6 +2,7 @@ import data from './data.json'
 import { useLocation, useParams } from 'react-router-dom'
 import Row from './Row'
 
+//failing consitions
 function isFailed (latency, loss) {
   const latencyFailed = latency > 10000
   if (latencyFailed) {
@@ -11,7 +12,6 @@ function isFailed (latency, loss) {
   if (lossFailed) {
     return 'loss'
   }
-
   return false
 }
 
@@ -27,46 +27,6 @@ export default function RowPage () {
   const { roomNumber, number } = useParams()
 
   const racks = []
-  // [
-  //   {
-  //     location: 'US....',
-  //     datacenter: 'US...',
-  //     room: '1',
-  //     row: '1',
-  //     number: '1',
-  //     failed: true,
-  //     tors: [
-  //       {
-  //         hostname: 'usmt...',
-  //         failed: true,
-  //         vertical: {
-  //           loss: 0.0,
-  //           latency: 0.0,
-  //           failed: false
-  //         },
-  //         horizontal: {
-  //           loss: 10.0,
-  //           latency: 0.0,
-  //           failed: true
-  //         }
-  //       },
-  //       {
-  //         hostname: 'usst...',
-  //         failed: true,
-  //         vertical: {
-  //           loss: 0.0,
-  //           latency: 0.0,
-  //           failed: false
-  //         },
-  //         horizontal: {
-  //           loss: 10.0,
-  //           latency: 0.0,
-  //           failed: true
-  //         }
-  //       }
-  //     ]
-  //   }
-  // ]
 
   data.forEach(report => {
     const {

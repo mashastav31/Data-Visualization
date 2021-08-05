@@ -33,6 +33,7 @@ export default function Overview () {
   const datacenter = params.get('datacenter')
 
   const racks = []
+  
   //Nested rack view - TOR breakdown:
   // [
   //   {

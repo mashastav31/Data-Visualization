@@ -25,8 +25,8 @@ export default function Room ({ number, rows, datacenter }) {
 
   return (
     <>
-      <Link to={path} className={'roomHeader'}>
-        <h1>Room {number}</h1>
+      <Link to={path} className={'roomHeader'} style={{textDecoration: 'none', color: 'black'}}>
+        <h1 >Room {number}</h1>
       </Link>
 
       <table>

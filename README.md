@@ -17,11 +17,11 @@ At a glance the user is able to:
 
 ## Challenges:
 
-Several:)
+A few:)
 
 I have used Redux before and thought I'd peak into React hooks this time - took me a second to make sense of those. A rewarding learning curve - turns out hooks are far less verbose.
 
-I did CSS manually to get some practice - even a smaller project like this one takes time to tweak. In production, a UI framework (e.g. Material UI) would probably be easier/cleaner.
+I did CSS manually to get some practice - even a smaller project like this one takes time to tweak. In production, a UI framework (e.g. Material UI) would probably be easier.
 
 ## Potential things to improve/add:
 

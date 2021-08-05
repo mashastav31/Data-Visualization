@@ -3,14 +3,12 @@ import RoomPage from './RoomPage'
 import RowPage from './RowPage'
 import RackPage from './RackPage'
 import { Route } from 'react-router-dom'
-import Rooms from './Rooms'
 import './style.css'
 
 function App () {
   return (
     <main>
       <Route exact path='/' component={Overview}/>
-      <Route path='/rooms' component={Rooms} />
       <Route path='/room/:number' component={RoomPage} />
       <Route
         path='/row/:roomNumber/:number'
