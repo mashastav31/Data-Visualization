@@ -1,3 +1,9 @@
+## Getting started
+
+1. Fork and clone this repo
+2. Run **_npm install_**
+3. You should see the project running at [localhost:3000](http://localhost:3000/?datacenter=USMTT1)
+
 ## Overview:
 
 A datacenter is made of rooms, rows, and racks.
